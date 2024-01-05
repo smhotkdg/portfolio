@@ -340,7 +340,7 @@
               </div>
               <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                 <div class="timeline-text">
-                  <img src="img/Logo/merge.png"/>      
+                  <img src="img/Logo/jump.png"/>      
                     <div class="timeline-date">2019.02 ~ 2019.2</div>
                     <div class="timeline-title">HoitHoitJump</div>                                 
                     <h4>Hoit Studio</h4>
@@ -349,18 +349,124 @@
                     </p>                            
                     <p>
                       <i class="fa fa-google fa-lg fa-fw"></i>
-                      <a href="https://play.google.com/store/apps/details?id=com.hoitstudio.mergemine" target="_blank">구글 스토어 링크</a><p>
+                      <a href="https://play.google.com/store/apps/details?id=com.hoitstudio.hoithoitjump" target="_blank">구글 스토어 링크</a><p>
                     </p>                           
                      <p>
                       <i class="fa fa-github fa-lg fa-fw"></i>
-                      <a href="https://github.com/smhotkdg/MergeMine" target="_blank">github 링크</a><p>
+                      <a href="https://github.com/smhotkdg/HoitHoitJump" target="_blank">github 링크</a><p>
                     </p>
                     <p>
                       <i class="fa fa-youtube fa-lg fa-fw"></i>
-                      <a href="https://youtube.com/shorts/BbAD0mnmKT0" target="_blank">유튜브 링크</a><p>
+                      <a href="https://youtube.com/shorts/SR6UKQEIpGg" target="_blank">유튜브 링크</a><p>
                     </p>
                 </div>
                 </div> 
+                <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                      <img src="img/Logo/Hop.png"/>      
+                        <div class="timeline-date">2019.01 ~ 2019.01</div>
+                        <div class="timeline-title">HoitHoitHop</div>                                  
+                        <h4>Hoit Studio</h4>
+                        <p>
+                            하이퍼 캐쥬얼 게임
+                        </p>
+                        <br>             
+                             
+                        <p>
+                          <i class="fa fa-github fa-lg fa-fw"></i>
+                          <a href="https://github.com/smhotkdg/HoitHoitHop" target="_blank">github 링크</a><p>
+                        </p>
+                        <p>
+                          <i class="fa fa-youtube fa-lg fa-fw"></i>
+                          <a href="https://youtube.com/shorts/vA-t3Ky9ZRw" target="_blank">유튜브 링크</a><p>
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                <div class="timeline-text">
+                  <img src="img/Logo/zombiewar.png"/>      
+                    <div class="timeline-date">2018.10 ~ 2012.12</div>
+                    <div class="timeline-title">좀비전쟁-백신마스터</div>                                 
+                    <h4>Hoit Studio</h4>
+                    <p>
+                        백신을 생산하여 좀비에 감염된 사람들을 치료하고 <p>
+                        더 많은 감염자가 나타나지 않도록 대비를 해야 합니다.
+                    </p>                           
+                                              
+                     <p>
+                      <i class="fa fa-github fa-lg fa-fw"></i>
+                      <a href="https://github.com/smhotkdg/zombiewar" target="_blank">github 링크</a><p>
+                    </p>
+                    <p>
+                      <i class="fa fa-youtube fa-lg fa-fw"></i>
+                      <a href="https://youtu.be/z3gZxYEoiew" target="_blank">유튜브 링크</a><p>
+                    </p>
+                </div>
+                </div> 
+                <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                      <img src="img/Logo/dig.png"/>      
+                        <div class="timeline-date">2018.01 ~ 2018.08</div>
+                        <div class="timeline-title">디그덕 :광산 경영 타이쿤</div>                                  
+                        <h4>Hoit Studio</h4>
+                        <p>
+                            전세계 500만뷰 이상의 웹게임<p>
+                            Mr.Mine의 공식 모바일 버전
+                        </p>
+                        <br>             
+                             
+                        <p>
+                          <i class="fa fa-github fa-lg fa-fw"></i>
+                          <a href="https://github.com/smhotkdg/DigDuk" target="_blank">github 링크</a><p>
+                        </p>
+                        <p>
+                          <i class="fa fa-youtube fa-lg fa-fw"></i>
+                          <a href="https://youtu.be/inc_IpB1S1Q" target="_blank">유튜브 링크</a><p>
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                <div class="timeline-text">
+                  <img src="img/Logo/license_plate.png"/>      
+                    <div class="timeline-date">2015.07 ~ 2015.11</div>
+                    <div class="timeline-title">실시간 번호판 검출</div>                                 
+                    <h4>Hoit Studio</h4>
+                    <p>
+                        실시간 번호판 검출 알고리즘 연구 및 개발
+                    </p>                           
+                                              
+                     <p>
+                      <i class="fa fa-github fa-lg fa-fw"></i>
+                      <a href="https://github.com/smhotkdg/license_plate" target="_blank">github 링크</a><p>
+                    </p>
+                    <p>
+                      <i class="fa fa-youtube fa-lg fa-fw"></i>
+                      <a href="https://www.youtube.com/watch?v=M3cXLBBN7qI" target="_blank">유튜브 링크</a><p>
+                    </p>
+                </div>
+                </div> 
+                 <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                <div class="timeline-text">
+                  <img src="img/Logo/RoadDetection.png"/>      
+                    <div class="timeline-date">2014.04 ~ 2015.11</div>
+                    <div class="timeline-title">실시간 도로검출 알고리즘 연구 및 개발</div>                                 
+                    <h4>Hoit Studio</h4>
+                    <p>
+                        고속도로 및 국도의 도로 검출 알고리즘 연구 및 개발<p>
+                        CUDA를 이용한 고속화
+                    </p>                           
+                                              
+                     <p>
+                      <i class="fa fa-github fa-lg fa-fw"></i>
+                      <a href="https://github.com/smhotkdg/license_plate" target="_blank">github 링크</a><p>
+                    </p>
+                    <p>
+                      <i class="fa fa-youtube fa-lg fa-fw"></i>
+                      <a href="https://www.youtube.com/watch?v=h2cEX1Ey50I&t=2s" target="_blank">유튜브 링크</a><p>
+                    </p>
+                </div>
+                </div> 
+
 
                 </div>
             </div>
