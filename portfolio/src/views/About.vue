@@ -1,7 +1,17 @@
+
 <template>
+
   <div style="margin-bottom: 80px;">
     <h1>안녕하세요!</h1>
-
+    <div v-show="false">
+      <ProjectsList v-bind:projects="projects" />
+      <ProjectsListOther v-bind:otherProjects="otherProjects" />
+    </div>  
+    <div>
+    <p>{{ projects[1].name }}</p>
+    <p>{{ otherProjects[1].name }}</p>
+    </div>
+    
     <div class="paragraph">
       <div>
         다양한 게임 프로젝트에서 주로 프로그래밍을 다루며<br>
@@ -23,22 +33,24 @@
       <img src="img/avatar.jpg" alt="Avatar of Seunghun" />
     </div>
 
+    
     <div style="clear:both"></div>
     <div class="experience" id="experience">
       <div class="container">
         <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
           <div class="title">실무 경험</div>
-        </header>
+        </header>        
         <div class="timeline">
           <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
-              <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/galaxy_tale.png" />
+            
+              <div class="responsive-image-container">                         
+              
+                <img class="responsive-image" src="img/Logo/galaxy_tale.png" @click="showDetails(projects[0])"/>             
+              
               </div>
-
-              <br><br>
               <div class="timeline-date">2023.04 ~ 2024.01</div>
-              <div class="timeline-title">갤럭시 테일 : 고양이 로그라이크 RPG</div>
+              <div class="timeline-title" @click="showDetails(projects[0])">갤럭시 테일 : 고양이 로그라이크 RPG</div>
               <h4>Hoit Studio</h4>
               <p>
                 고양이 캡틴과 로그라이크 우주를 탐험하며 모험의 즐거움을 경험하세요
@@ -74,11 +86,10 @@
           <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/tab-zombie.png" />
-              </div>
-              <br><br>
+                <img class="responsive-image" src="img/Logo/tab-zombie.png" @click="showDetails(projects[1])"/>
+              </div>             
               <div class="timeline-date">2022.11 - 2022.12</div>
-              <div class="timeline-title">탭 좀비!</div>
+              <div class="timeline-title" @click="showDetails(projects[1])">탭 좀비!</div>
               <h4>Hoit Studio</h4>
               <p>
                 좀비들을 제거하면서 오래 생존하세요!
@@ -113,13 +124,12 @@
             <div class="timeline-text">
               <div class="responsive-image-container">
                 <img class="responsive-image" src="img/Logo/bb.jpg" />
-              </div>
-              <br><br>
+              </div>             
               <div class="timeline-date">2022.11</div>
               <div class="timeline-title">버닝비버 2022</div>
               <h4>Hoit Studio</h4>
               <p>
-                "죽읨의 바다" 모바일 부분 전시
+                "죽음의 바다" 모바일 부분 전시
               </p>
               <br>
               <p>
@@ -142,8 +152,7 @@
             <div class="timeline-text">
               <div class="responsive-image-container">
                 <img class="responsive-image" src="img/Logo/gg.jpg" />
-              </div>
-              <br><br>
+              </div>       
               <div class="timeline-date">2022.11</div>
               <div class="timeline-title">Google indie game accelerator 2022</div>
               <h4>Hoit Studio</h4>
@@ -212,7 +221,7 @@
               <div class="timeline-title">부산 인디 커넥트 페스티벌 2022</div>
               <h4>Hoit Studio</h4>
               <p>
-                "죽읨의 바다" 모바일 부분 전시
+                "죽음의 바다" 모바일 부분 전시
               </p>
               <br>
               <p>
@@ -394,10 +403,8 @@
               <div class="timeline-title">Mr.Mine</div>
               <h4>Hoit Studio</h4>
               <p>
-                간단한 스와이프로 자동차를 움직여
-              <p>
-                퍼즐을 풀어보세요!
-              </p>
+                100가지가 넘는 다양한 광부를 고용하고 광산을 관리하세요!
+              
               <br>
               <p>
                 <i class="fa fa-github fa-lg fa-fw"></i>
@@ -558,7 +565,7 @@
 
             <p>
               <i class="fa fa-github fa-lg fa-fw"></i>
-              <a href="https://github.com/smhotkdg/license_plate" target="_blank">github 링크</a>
+              <a href="https://github.com/smhotkdg/roaddtection" target="_blank">github 링크</a>
             <p>
             </p>
             <p>
@@ -571,13 +578,12 @@
         <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/temp.png" />
+                <img class="responsive-image" src="img/Logo/blind.png" />
               </div>
               <div class="timeline-date">2013.05 ~ 2013.11</div>
-              <div class="timeline-title">보행자 검출 및 사각지대 차량 검출</div>
+              <div class="timeline-title">사각지대 차량 검출</div>
               <h4>대학원</h4>
-              <p>
-                실시간 보행자 검출 알고리즘 연구 및 개발<p>
+              <p>                
                 실시간 사각지대 차량 검출 알고리즘 연구 및 개발
               </p>
 
@@ -596,7 +602,7 @@
         <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
           <div class="timeline-text">
             <div class="responsive-image-container">
-              <img class="responsive-image" src="img/Logo/temp.png" />
+              <img class="responsive-image" src="img/Logo/vlc.png" />
             </div>
             <div class="timeline-date">2013.03 ~ 2015.01</div>
             <div class="timeline-title">근거리 무선 광 통신 융합 기술</div>
@@ -621,7 +627,7 @@
         <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/temp.png" />
+                <img class="responsive-image" src="img/Logo/crr.png" />
               </div>
               <div class="timeline-date">2012.09 ~ 2012.10</div>
               <div class="timeline-title">움직임 감지와 얼굴 DNA 검출을 통한 CCTV 개선 프로그램</div>
@@ -631,15 +637,13 @@
                  - 무분별한 녹화(대용량 데이터 필요) <p>
                  - 사건 발생 후 대처 부족
               </p>
-
+            
               <p>
-                <i class="fa fa-github fa-lg fa-fw"></i>
-                <a href="https://github.com/smhotkdg/BlindSpotDetection" target="_blank">github 링크</a>
-              <p>
-              </p>
+              <i class="fa fa-external-link fa-lg fa-fw"></i>
+              <a href="https://blog.naver.com/smhotkdg/60163653224" target="_blank">블로그 링크</a>
               <p>
               <i class="fa fa-youtube fa-lg fa-fw"></i>
-              <a href="https://youtu.be/3Wd89kLV-8c" target="_blank">유튜브 링크</a>
+              <a href="https://www.youtube.com/watch?v=Y0-1hR0Sle0" target="_blank">유튜브 링크</a>
             <p>
             </p>
           </div>
@@ -648,7 +652,7 @@
           <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
           <div class="timeline-text">
             <div class="responsive-image-container">
-              <img class="responsive-image" src="img/Logo/temp.png" />
+              <img class="responsive-image" src="img/Logo/code.png" />
             </div>
             <div class="timeline-date">2012.10</div>
             <div class="timeline-title">The Davinci Code</div>
@@ -672,7 +676,7 @@
         <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/temp.png" />
+                <img class="responsive-image" src="img/Logo/adas.png" />
               </div>
               <div class="timeline-date">2011.09 ~ 2011.12</div>
               <div class="timeline-title">운전자 정보 극대화를 위한 Augmented Driving System(ADS) 개발</div>
@@ -686,9 +690,13 @@
 
               <p>
                 <i class="fa fa-github fa-lg fa-fw"></i>
-                <a href="https://github.com/smhotkdg/BlindSpotDetection" target="_blank">github 링크</a>
+                <a href="https://github.com/smhotkdg/ADAS" target="_blank">github 링크</a>
               <p>
               </p>
+               <p>
+              <i class="fa fa-external-link fa-lg fa-fw"></i>
+              <a href="https://blog.naver.com/smhotkdg/60163657211" target="_blank">블로그 링크</a>
+              <p>
               <p>
               <i class="fa fa-youtube fa-lg fa-fw"></i>
               <a href="https://youtu.be/3Wd89kLV-8c" target="_blank">유튜브 링크</a>
@@ -702,7 +710,68 @@
       </div>
     </div>
   </div>
+
+<ProjectDetailsOverlay
+        v-on:close="showPopup = false"
+        :visible="showPopup"
+        :title="popupTitle"
+        :htmlContent="popupContent"
+        :color="popupColor"
+      />
+      
 </div></template>
+import { EventBus } from '@/path/to/EventBus.js';
+
+// ...
+
+closePopup: function () {
+  // 팝업이 닫힐 때 이전의 스크롤 위치로 복구
+  window.scrollTo(0, this.previousScrollPosition);
+  this.showPopup = false;
+
+  // closePopup 이벤트를 발행
+  EventBus.$emit('closePopupEvent');
+
+<script lang="ts">
+import Vue from "vue";
+import ProjectDetailsOverlay from "@/components/ProjectDetailsOverlay.vue";
+import ProjectsList from "@/components/ProjectsList.vue";
+import ProjectsListOther from "@/components/ProjectsList.vue";
+import gameProjectsData from "@/data/GameProjectsData.ts";
+import ProjectData from "@/data/ProjectData.ts";
+import OtherProjectsData from "@/data/OtherProjectsData.ts";
+
+
+export default Vue.extend({
+  name: "GameProjects",
+  components: {
+    ProjectsList,    
+    ProjectsListOther,
+    ProjectDetailsOverlay, // 이 부분이 추가되었습니다.
+  },
+  data: function () {
+    return {
+      projects: gameProjectsData,
+      otherProjects: OtherProjectsData,
+      showPopup: false,
+      popupTitle: "",
+      popupColor: "",
+      popupContent: "",
+
+    };
+  },
+  methods: {
+    showDetails: function (item: ProjectData) {
+      
+      this.popupTitle = item.name;
+      this.popupColor = item.accentColor;
+      this.popupContent = item.htmlDescription;
+      this.showPopup = true;      
+    },
+   
+  },
+});
+</script>
 
 <style scoped>.paragraph {
   max-width: 700px;
@@ -724,4 +793,7 @@
     padding: 10px;
     padding-left: 80px;
   }
+
+  
 }</style>
+

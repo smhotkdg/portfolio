@@ -1,17 +1,21 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Optimistic Chubby", "img/projects/project-1-icon.png", 
-    `
+    new ProjectData("project-1", "갤럭시 테일", "img/projects/galaxy_tale_character_icon.png",
+        `
     <div class="paragraph">
      <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
      <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://youtube.com/shorts/9316blb5v6I" frameborder="0" allowfullscreen></iframe>
     </div>
-    <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
+    <div class="paragraph center">    
+        <i class="fa fa-google fa-lg fa-fw"></i>
+        <a href="https://play.google.com/store/apps/details?id=com.hoitstudio.tapzombie" target="_blank">구글 스토어 링크</a>        
+        <p>
+        <i class="fa fa-github fa-lg fa-fw"></i>
+        <a href="https://github.com/smhotkdg/MeowMeowPunch" target="_blank">github 링크</a>        
     </div>
 
     <div class="paragraph">
@@ -28,7 +32,7 @@ export default [
         <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
         <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
     </div>
-    `, "#23bd69", true),
+    `, "#23bd69"),
     new ProjectData("project-2", "Singing Addict", "img/projects/project-2-icon.png", `
     <div class="paragraph">
         <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.

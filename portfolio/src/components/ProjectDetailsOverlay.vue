@@ -1,7 +1,7 @@
 <template>
   <transition name="fade">
     <div v-if="visible">
-      <div class="overlay">
+      <div class="overlay" @keydown.esc="$emit('close')" tabindex="0">
       </div>
       <div class="dialog" :style="{ 'background-color': color }">
         <h1 class="dialog-title">{{ title }}</h1>
@@ -28,14 +28,39 @@ export default Vue.extend({
     title: String,
     htmlContent: String,
   },
-  methods: {
-    getImage: function(url: string) {
-      console.log("fetching image " + url);
+  data() {
+    return {
+      previousScrollPosition: 0,
+    };
+  },
+  mounted() {
+    if (this.visible) {
+      // 팝업이 열릴 때, 스크롤 위치를 기록하고 최상단으로 이동
+      this.previousScrollPosition = window.scrollY;
+      window.scrollTo(0, 0);
     }
-  }
+  },
+  beforeDestroy() {
+    if (this.visible) {
+      // 팝업이 닫힐 때, 이전 스크롤 위치로 복구
+      window.scrollTo(0, this.previousScrollPosition);
+    }
+  },
+  watch: {
+    // visible 속성의 변경을 감지하여 처리
+    visible(newValue) {
+      if (newValue) {
+        // 팝업이 열릴 때, 스크롤 위치를 기록하고 최상단으로 이동
+        this.previousScrollPosition = window.scrollY;
+        window.scrollTo(0, 0);
+      } else {
+        // 팝업이 닫힐 때, 이전 스크롤 위치로 복구
+        window.scrollTo(0, this.previousScrollPosition);
+      }
+    },
+  },
 });
 </script>
-
 <style scoped>
 .overlay {
   background-color: rgba(0,0,0,0.5);

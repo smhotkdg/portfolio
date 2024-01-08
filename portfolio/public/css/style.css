@@ -638,6 +638,8 @@ a:focus {
     font-size: 25px;
     font-weight: 600;
     color: #ffffff;
+    cursor: pointer;
+
 }
 .title {  
     
@@ -1612,4 +1614,7 @@ a:focus {
   .responsive-image {
     width: 100%;
     height: auto;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
 }
