@@ -1,15 +1,14 @@
 
 <template>
 
-  <div style="margin-bottom: 80px;">
-    <h1>안녕하세요!</h1>
+
+  <div style="margin-bottom: 80px;">    
     <div v-show="false">
       <ProjectsList v-bind:projects="projects" />
       <ProjectsListOther v-bind:otherProjects="otherProjects" />
     </div>  
     <div>
-    <p>{{ projects[1].name }}</p>
-    <p>{{ otherProjects[1].name }}</p>
+   
     </div>
     
     <div class="paragraph">
@@ -35,7 +34,7 @@
 
     
     <div style="clear:both"></div>
-    <div class="experience" id="experience">
+    <div class="experience_init" id="experience">
       <div class="container">
         <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
           <div class="title">실무 경험</div>
@@ -49,7 +48,8 @@
                 <img class="responsive-image" src="img/Logo/galaxy_tale.png" @click="showDetails(projects[0])"/>             
               
               </div>
-              <div class="timeline-date">2023.04 ~ 2024.01</div>
+              <div class="timeline-date">2023.04 ~ 2024.01</div>           
+              <br>
               <div class="timeline-title" @click="showDetails(projects[0])">갤럭시 테일 : 고양이 로그라이크 RPG</div>
               <h4>Hoit Studio</h4>
               <p>

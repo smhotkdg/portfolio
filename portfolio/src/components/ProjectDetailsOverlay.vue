@@ -69,7 +69,7 @@ export default Vue.extend({
   top:0px;
   left:0px;
   right:0px;
-  bottom: 0px;
+  bottom: 0px;  
 }
 
 .dialog {
@@ -99,7 +99,7 @@ h1.dialog-title {
 }
 
 .dialog-content {
-  background-color: #fcfcfc;
+  background-color: #343434;
   color: #696969;
 }
 .dialog-close {
