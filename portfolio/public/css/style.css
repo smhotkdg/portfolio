@@ -23,7 +23,7 @@ h5{
     font-size: 15px; /* 폰트 크기 지정 */    
     font-weight: bold; /* 폰트 굵기 지정 */    
     letter-spacing: 1px; /* 글자 사이 간격 지정 */
-    line-height: 1; /* 줄 간격 지정 */    
+    line-height: 0.5; /* 줄 간격 지정 */    
     color: rgb(153, 153, 153);
     margin-left: 20px; 
 }
@@ -3319,4 +3319,21 @@ h2 {
     to {
         left: 100%
     }
+}
+.linkText{
+    display: block;
+    font-weight: 400;
+    color: #e2f0f0
+}
+.popupInfoText{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    color: #c2c2c2
+}
+.popupInfoTitle{
+    display: block;
+    font-weight: 400;
+    font-size: 40px;
+    color: #ffffff
 }

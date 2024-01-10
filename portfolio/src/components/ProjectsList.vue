@@ -103,13 +103,13 @@ filter: brightness(120%);
   padding: 10px;
 }
 
-@media only screen and (min-width: 620px){
+@media only screen and (min-width: 100px){
   .projects-list {
-    max-width: 900px;
+    max-width: 1100px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    grid-auto-rows: minmax(250px, auto);
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+    grid-auto-rows: minmax(250px, auto);    
   }
 
   .project-item {
