@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
-import Home from '../views/Home.vue'
+
 
 Vue.use(VueRouter)
 
@@ -24,6 +24,11 @@ const routes: Array<RouteConfig> = [
     path: '/other-projects',
     name: 'Other Projects',
     component: () => import(/* webpackChunkName: "about" */ '../views/OtherProjects.vue')
+  },
+  {
+    path: '/Extracurricular-Activities',
+    name: 'Extracurricular Activities',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ExtracurricularActivities.vue')
   },
   {
     path: '/contact',

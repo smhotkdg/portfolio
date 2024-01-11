@@ -4,6 +4,7 @@
       <router-link to="/">About me</router-link>
       <router-link to="/game-projects">Game</router-link>
       <router-link to="/other-projects">Other Project</router-link>
+      <router-link to="/Extracurricular-Activities">Experience</router-link>
       <router-link to="/resume">Resume</router-link>
       <router-link to="/contact">Contact</router-link>
     </div>

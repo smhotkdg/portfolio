@@ -6,6 +6,7 @@
     <div v-show="false">
       <ProjectsList v-bind:projects="projects" />
       <ProjectsListOther v-bind:otherProjects="otherProjects" />
+      <ProejctListEx v-bind:exPorjects="exPorjects" />
     </div>  
     <div>
    
@@ -76,7 +77,7 @@
           <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="timeline-date">2023.01</div>
-              <div class="timeline-title">퍼블리싱 계약</div>
+              <div class="timeline-title" @click="showDetails(exPorjects[0])">퍼블리싱 계약</div>
               <h4>Hoit Studio</h4>
               <p>
                 중국 Pujia8 Studio "죽음의 바다" 퍼블리싱 계약
@@ -123,10 +124,10 @@
           <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/bb.jpg" />
+                <img class="responsive-image" src="img/Logo/bb.jpg" @click="showDetails(exPorjects[1])"/>
               </div>             
-              <div class="timeline-date">2022.11</div>
-              <div class="timeline-title">버닝비버 2022</div>
+              <div class="timeline-date">2022.12</div>
+              <div class="timeline-title" @click="showDetails(exPorjects[1])">버닝비버 2022</div>
               <h4>Hoit Studio</h4>
               <p>
                 "죽음의 바다" 모바일 부분 전시
@@ -151,10 +152,10 @@
           <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/gg.jpg" />
+                <img class="responsive-image" src="img/Logo/gg.jpg" @click="showDetails(exPorjects[2])"/>
               </div>       
               <div class="timeline-date">2022.11</div>
-              <div class="timeline-title">Google indie game accelerator 2022</div>
+              <div class="timeline-title" @click="showDetails(exPorjects[2])">Google indie game accelerator 2022</div>
               <h4>Hoit Studio</h4>
               <p>
                 구글 인디게임 액셀러레이터 선정
@@ -176,10 +177,10 @@
           <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/styx.png" />
+                <img class="responsive-image" src="img/Logo/styx.png" @click="showDetails(projects[2])" />
               </div>
-              <div class="timeline-date">2022.01 - 2020.10</div>
-              <div class="timeline-title">죽음의 바다</div>
+              <div class="timeline-date">2022.01 - 2022.10</div>
+              <div class="timeline-title" @click="showDetails(projects[2])">죽음의 바다</div>
               <h4>Hoit Studio</h4>
               <p>
                 방탈출 퍼즐 어드벤쳐 미스테리 스토리 게임
@@ -199,6 +200,11 @@
                 <a href="https://apps.apple.com/kr/app/%EC%A3%BD%EC%9D%8C%EC%9D%98-%EB%B0%94%EB%8B%A4/id1602798571"
                   target="_blank">앱스토어 링크</a>
               <p>
+              <p>
+                <i class="fa fa-steam fa-lg fa-fw"></i>
+                <a href="https://store.steampowered.com/search/?developer=Hoit%20Studio"
+                  target="_blank">스팀 링크</a>
+              <p>
               </p>
               <p>
                 <i class="fa fa-github fa-lg fa-fw"></i>
@@ -215,10 +221,10 @@
           <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/bs.jpg" />
+                <img class="responsive-image" src="img/Logo/bs.jpg" @click="showDetails(exPorjects[3])"/>
               </div>
               <div class="timeline-date">2022.09</div>
-              <div class="timeline-title">부산 인디 커넥트 페스티벌 2022</div>
+              <div class="timeline-title" @click="showDetails(exPorjects[3])">부산 인디 커넥트 페스티벌 2022</div>
               <h4>Hoit Studio</h4>
               <p>
                 "죽음의 바다" 모바일 부분 전시
@@ -253,10 +259,10 @@
           <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/heroesstory.png" />
+                <img class="responsive-image" src="img/Logo/heroesstory.png" @click="showDetails(projects[3])" />
               </div>
               <div class="timeline-date">2021.02 ~ 2021.07</div>
-              <div class="timeline-title">히어로즈 스토리</div>
+              <div class="timeline-title" @click="showDetails(projects[3])" >히어로즈 스토리</div>
               <h4>Hoit Studio</h4>
               <p>
                 다양한 히어로를 획득하세요!
@@ -264,6 +270,11 @@
                 히어로들을 모아 전장에서 승리하세요!
               </p>
               <br>
+              <p>
+                <i class="fa fa-google fa-lg fa-fw"></i>
+                <a href="https://play.google.com/store/apps/details?id=com.hoitstudio.heroesstory" target="_blank">구글 스토어 링크</a>
+              <p>
+              </p>
               <p>
                 <i class="fa fa-apple fa-lg fa-fw"></i>
                 <a href="https://apps.apple.com/kr/app/%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88-%EC%8A%A4%ED%86%A0%EB%A6%AC/id1544702806"
@@ -277,7 +288,7 @@
               </p>
               <p>
                 <i class="fa fa-youtube fa-lg fa-fw"></i>
-                <a href="https://youtu.be/tc_kgNIOmvU" target="_blank">유튜브 링크</a>
+                <a href="https://www.youtube.com/watch?v=tc_kgNIOmvU" target="_blank">유튜브 링크</a>
               <p>
               </p>
             </div>
@@ -285,10 +296,10 @@
           <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/road.png" />
+                <img class="responsive-image" src="img/Logo/road.png" @click="showDetails(otherProjects[0])"/>
               </div>
               <div class="timeline-date">2020.10 ~ 2021.03</div>
-              <div class="timeline-title">인공지능 도로포장균열 분석 및 개발</div>
+              <div class="timeline-title" @click="showDetails(otherProjects[0])">인공지능 도로포장균열 분석 및 개발</div>
               <h4>Hoit Studio</h4>
               <p>
                 고속도로 및 일반도로의 균열을 분석하는
@@ -740,19 +751,22 @@ import ProjectsListOther from "@/components/ProjectsList.vue";
 import gameProjectsData from "@/data/GameProjectsData.ts";
 import ProjectData from "@/data/ProjectData.ts";
 import OtherProjectsData from "@/data/OtherProjectsData.ts";
-
+import ProejctEx from "@/data/ExtracData.ts";
+import ProejctListEx from "@/components/ProjectsList.vue"
 
 export default Vue.extend({
   name: "GameProjects",
   components: {
     ProjectsList,    
     ProjectsListOther,
+    ProejctListEx,
     ProjectDetailsOverlay, // 이 부분이 추가되었습니다.
   },
   data: function () {
     return {
       projects: gameProjectsData,
       otherProjects: OtherProjectsData,
+      exPorjects : ProejctEx,
       showPopup: false,
       popupTitle: "",
       popupColor: "",
