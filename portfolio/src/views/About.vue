@@ -244,7 +244,7 @@
           <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="timeline-date">2022.08</div>
-              <div class="timeline-title">네오위즈, '방구석 인디 게임쇼 2022'</div>
+              <div class="timeline-title" @click="showDetails(exPorjects[4])">네오위즈, '방구석 인디 게임쇼 2022'</div>
               <h4>Hoit Studio</h4>
               <p>
                 장려상 부문 수상
@@ -319,10 +319,10 @@
           <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/reaper.png" />
+                <img class="responsive-image" src="img/Logo/reaper.png" @click="showDetails(projects[4])" />
               </div>
               <div class="timeline-date">2020.04 ~ 2020.11</div>
-              <div class="timeline-title">리퍼 영혼약탈자</div>
+              <div class="timeline-title" @click="showDetails(projects[4])">리퍼 영혼약탈자</div>
               <h4>Hoit Studio</h4>
               <p>
                 방치형 RPG
@@ -347,10 +347,10 @@
           <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/swipedrive.png" />
+                <img class="responsive-image" src="img/Logo/swipedrive.png" @click="showDetails(projects[5])"/>
               </div>
               <div class="timeline-date">2020.01 ~ 2020.02</div>
-              <div class="timeline-title">Swipe Drive</div>
+              <div class="timeline-title" @click="showDetails(projects[5])">Swipe Drive</div>
               <h4>Hoit Studio</h4>
               <p>
                 간단한 스와이프로 자동차를 움직여
@@ -379,10 +379,10 @@
           <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/merge.png" />
+                <img class="responsive-image" src="img/Logo/merge.png" @click="showDetails(projects[6])"/>
               </div>
               <div class="timeline-date">2019.09 ~ 2019.10</div>
-              <div class="timeline-title">머지마인:골드러쉬</div>
+              <div class="timeline-title" @click="showDetails(projects[6])">머지마인:골드러쉬</div>
               <h4>Hoit Studio</h4>
               <p>
                 방치형 RPG
@@ -408,10 +408,10 @@
           <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/mrmine.png" />
+                <img class="responsive-image" src="img/Logo/mrmine.png" @click="showDetails(projects[7])"/>
               </div>
               <div class="timeline-date">2019.04 ~ 2019.07</div>
-              <div class="timeline-title">Mr.Mine</div>
+              <div class="timeline-title" @click="showDetails(projects[7])">Mr.Mine</div>
               <h4>Hoit Studio</h4>
               <p>
                 100가지가 넘는 다양한 광부를 고용하고 광산을 관리하세요!
@@ -432,10 +432,10 @@
           <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/jump.png" />
+                <img class="responsive-image" src="img/Logo/jump.png" @click="showDetails(projects[8])"/>
               </div>
               <div class="timeline-date">2019.02 ~ 2019.2</div>
-              <div class="timeline-title">HoitHoitJump</div>
+              <div class="timeline-title" @click="showDetails(projects[8])">HoitHoitJump</div>
               <h4>Hoit Studio</h4>
               <p>
                 하이퍼 캐쥬얼 게임
@@ -461,10 +461,10 @@
           <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/Hop.png" />
+                <img class="responsive-image" src="img/Logo/Hop.png" @click="showDetails(projects[9])"/>
               </div>
               <div class="timeline-date">2019.01 ~ 2019.01</div>
-              <div class="timeline-title">HoitHoitHop</div>
+              <div class="timeline-title" @click="showDetails(projects[9])">HoitHoitHop</div>
               <h4>Hoit Studio</h4>
               <p>
                 하이퍼 캐쥬얼 게임
@@ -486,10 +486,10 @@
           <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/zombiewar.png" />
+                <img class="responsive-image" src="img/Logo/zombiewar.png" @click="showDetails(projects[10])"/>
               </div>
               <div class="timeline-date">2018.10 ~ 2012.12</div>
-              <div class="timeline-title">좀비전쟁-백신마스터</div>
+              <div class="timeline-title" @click="showDetails(projects[10])">좀비전쟁-백신마스터</div>
               <h4>Hoit Studio</h4>
               <p>
                 백신을 생산하여 좀비에 감염된 사람들을 치료하고
@@ -512,10 +512,10 @@
           <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/dig.png" />
+                <img class="responsive-image" src="img/Logo/dig.png" @click="showDetails(projects[11])"/>
               </div>
               <div class="timeline-date">2018.01 ~ 2018.08</div>
-              <div class="timeline-title">디그덕 :광산 경영 타이쿤</div>
+              <div class="timeline-title" @click="showDetails(projects[11])">디그덕 :광산 경영 타이쿤</div>
               <h4>Hoit Studio</h4>
               <p>
                 전세계 500만뷰 이상의 웹게임
@@ -539,10 +539,10 @@
           <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/license_plate.png" />
+                <img class="responsive-image" src="img/Logo/license_plate.png"  @click="showDetails(otherProjects[1])"/>
               </div>
               <div class="timeline-date">2015.07 ~ 2015.11</div>
-              <div class="timeline-title">실시간 번호판 검출</div>
+              <div class="timeline-title"  @click="showDetails(otherProjects[1])">실시간 번호판 검출</div>
               <h4>대학원</h4>
               <p>
                 실시간 번호판 검출 알고리즘 연구 및 개발
@@ -563,10 +563,10 @@
         <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
           <div class="timeline-text">
             <div class="responsive-image-container">
-              <img class="responsive-image" src="img/Logo/RoadDetection.png" />
+              <img class="responsive-image" src="img/Logo/RoadDetection.png"  @click="showDetails(otherProjects[2])"/>
             </div>
             <div class="timeline-date">2014.04 ~ 2015.11</div>
-            <div class="timeline-title">실시간 도로검출 알고리즘 연구 및 개발</div>
+            <div class="timeline-title"  @click="showDetails(otherProjects[2])">실시간 도로검출 알고리즘 연구 및 개발</div>
             <h4>대학원</h4>
             <p>
               고속도로 및 국도의 도로 검출 알고리즘 연구 및 개발
@@ -589,10 +589,10 @@
         <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/blind.png" />
+                <img class="responsive-image" src="img/Logo/blind.png"  @click="showDetails(otherProjects[3])"/>
               </div>
               <div class="timeline-date">2013.05 ~ 2013.11</div>
-              <div class="timeline-title">사각지대 차량 검출</div>
+              <div class="timeline-title"  @click="showDetails(otherProjects[3])">사각지대 차량 검출</div>
               <h4>대학원</h4>
               <p>                
                 실시간 사각지대 차량 검출 알고리즘 연구 및 개발
@@ -613,10 +613,10 @@
         <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
           <div class="timeline-text">
             <div class="responsive-image-container">
-              <img class="responsive-image" src="img/Logo/vlc.png" />
+              <img class="responsive-image" src="img/Logo/vlc.png"  @click="showDetails(otherProjects[4])"/>
             </div>
             <div class="timeline-date">2013.03 ~ 2015.01</div>
-            <div class="timeline-title">근거리 무선 광 통신 융합 기술</div>
+            <div class="timeline-title"  @click="showDetails(otherProjects[4])">근거리 무선 광 통신 융합 기술</div>
             <h4>대학원</h4>
             <p>
               H.264/AVC를 기반으로 한 encoder 개발.<p>
@@ -638,10 +638,10 @@
         <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/crr.png" />
+                <img class="responsive-image" src="img/Logo/crr.png"  @click="showDetails(otherProjects[5])"/>
               </div>
               <div class="timeline-date">2012.09 ~ 2012.10</div>
-              <div class="timeline-title">움직임 감지와 얼굴 DNA 검출을 통한 CCTV 개선 프로그램</div>
+              <div class="timeline-title"  @click="showDetails(otherProjects[5])">움직임 감지와 얼굴 DNA 검출을 통한 CCTV 개선 프로그램</div>
               <h4>대학교</h4>
               <p>
                 현재 보급화된 감시 프로그램에 단점 보안을 위한 새로운 CCTV 프로그램 개발.<p>
@@ -663,10 +663,10 @@
           <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
           <div class="timeline-text">
             <div class="responsive-image-container">
-              <img class="responsive-image" src="img/Logo/code.png" />
+              <img class="responsive-image" src="img/Logo/code.png"  @click="showDetails(otherProjects[6])"/>
             </div>
             <div class="timeline-date">2012.10</div>
-            <div class="timeline-title">The Davinci Code</div>
+            <div class="timeline-title"  @click="showDetails(otherProjects[6])">The Davinci Code</div>
             <h4>대학교</h4>
             <p>
               원본 이미지에 텍스트 파일을 추가하는 Davinci Code 프로그램 이다. 
@@ -687,10 +687,10 @@
         <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
             <div class="timeline-text">
               <div class="responsive-image-container">
-                <img class="responsive-image" src="img/Logo/adas.png" />
+                <img class="responsive-image" src="img/Logo/adas.png"  @click="showDetails(otherProjects[7])"/>
               </div>
               <div class="timeline-date">2011.09 ~ 2011.12</div>
-              <div class="timeline-title">운전자 정보 극대화를 위한 Augmented Driving System(ADS) 개발</div>
+              <div class="timeline-title"  @click="showDetails(otherProjects[7])">운전자 정보 극대화를 위한 Augmented Driving System(ADS) 개발</div>
               <h4>대학교</h4>
               <p>
                 전방 차량 검출을 통한 사고예방<p>

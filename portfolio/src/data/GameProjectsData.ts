@@ -654,6 +654,182 @@ export default [
           소개
     </div>
     </br>
+    <div class="popupInfoText">    
+    "히어로즈 스토리"는 "탭 히어로"라는 웹 게임을 기반으로 시작된 프로젝트입니다.</br>
+    기본적인 게임 방식은 수집 및 방치형 게임의 기본 원칙을 채용하려고 했습니다. </br>
+    수십 가지 능력을 가진 다양한 히어로들을 수집하고 배치하여 높은 스테이지를 클리어하는 것이 이 게임의 목적이었습니다.</br>
+    </br>
+    각 히어로는 고유한 능력을 가지고 있으며, 방치를 통해 얻는 재화와 제작 아이템을 활용하여 새로운 아이템을 제작할 수 있습니다.</br>
+    이렇게 만들어진 아이템은 랜덤으로 능력이 부여되며, 이를 히어로에게 장착하여 더 높은 시너지를 발생시킵니다.</br>
+    </br>
+    뽑기나 일일 보상으로 얻은 히어로가 방치되는 현상을 방지하기 위해, 원정대, 던전, 합성 등의 다양한 활동을 통해 히어로들이 너무 많이 무시되지 않도록 노력하였습니다.</br>
+    이를 통해 게임의 균형을 유지하고 플레이어들이 즐겁고 다양한 경험을 할 수 있도록 구성하였습니다.
+    </br>
+    </div>
+    </br>
+    <div class="popupInfoTitle">
+          배운점
+    </div>
+    </br>
+    <div class="popupInfoText">      
+    "히어로즈 스토리"는 초반부터 지루해지는 구간이 발생하는 문제를 경험했습니다.</br> 
+    이를 해결하기 위해 튜토리얼을 더 친절하게 조정하고 밸런스를 수정했지만, 근본적인 문제는 게임의 속도감이었습니다.</br>
+    플레이어는 다양한 히어로를 수집하여 빠른 스테이지 클리어를 원할 수 있었지만,
+     단일 몬스터 타격 및 이동 속도 스텟 때문에 여러 히어로가 빠르게 스테이지를 클리어하는 즐거움을 제공하지 못했다고 판단했습니다.</br> 
+     </br> 
+    특히, 게임의 일본 게임회사와의 퍼블리싱 계약이 속도감의 문제로 무산되었습니다.</br> 
+     이전의 방치형 게임에서 플레이어가 너무 빨리 스테이지를 클리어한다고 판단하여 고의적으로 빠르게 클리어를 막았으며, 
+     그 구간에서 재미를 주기 위해 아이템 파밍이라는 기능을 도입했습니다. 그러나 이 기능이 유저들에게 정확하게 전달되지 못했다고 생각했습니다.
+     </br> 
+     </br> 
+     또한, 방치형 게임에서는 어울리는 던전 스타일이 있다는 것을 알 수 있었습니다. </br> 
+     저희가 제작한 다이스 던전은 수동으로 주사위를 던져 보스 몬스터를 잡는 구조로 이루어져 있습니다. </br> 
+     그러나 방치형 게임을 선호하는 유저들은 이러한 던전에서 지루함을 느끼며 이를 숙제처럼 받아들이는 경우가 많았습니다.
+     </br>      
+      이후의 업데이트에서는 자동 플레이를 지원하도록 수정하였지만, 기획 의도와는 정반대로 유저들이 이에 반응하는 것을 확인할 수 있었습니다.</br> 
+       이러한 경험을 통해 방치형 게임에서는 플레이어들의 선호와 기대에 부합하는 던전 구조와 플레이 방식을 고려하는 것이 중요하다는 교훈을 얻을 수 있었습니다.
+       </br> 
+    </div>
+    </br>       
+    `, "#383838"),
+    new ProjectData("project-4", "리퍼 영혼약탈자", "img/projects/reaper.png", `
+    <div class="content">
+    <div class="experience">    
+    <section class="job-card">
+      <h3>개요</h3>
+      리퍼 영혼약탈자는 Unity 엔진을 사용해서 방치형 RPG 게임입니다.
+      <br/><br/>
+      수백 가지의 무기를 획득하여 더 높은 스테이지를 달성하는 방치형 게임입니다.
+      
+      <br/><br/><br/><br/><br/><br/><br/><br/>
+    </section>
+    <section class="job-card">
+      <h3>프로젝트 정보</h3>
+      <ul>
+        <li>
+          <svg
+            class="svg-inline--fa fa-user list-icon"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="user"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+        
+            width="20"
+            height="20"
+          >
+            <path
+              class=""
+              fill="currentColor"
+              d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"
+            ></path>
+          </svg>         
+          
+          담당업무
+            <h5> 
+                <p>개발(100/100)</p>
+                <p>UI/UX(50/100)</p>
+                <p>기획(50/100)</p>
+            </h5>
+        </li>
+        <li>
+          <svg
+            class="svg-inline--fa fa-users list-icon"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="users"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 640 512"
+        
+            width="20"
+            height="20"
+          >
+            <path
+              class=""
+              fill="currentColor"
+              d="M319.9 320c57.41 0 103.1-46.56 103.1-104c0-57.44-46.54-104-103.1-104c-57.41 0-103.1 46.56-103.1 104C215.9 273.4 262.5 320 319.9 320zM369.9 352H270.1C191.6 352 128 411.7 128 485.3C128 500.1 140.7 512 156.4 512h327.2C499.3 512 512 500.1 512 485.3C512 411.7 448.4 352 369.9 352zM512 160c44.18 0 80-35.82 80-80S556.2 0 512 0c-44.18 0-80 35.82-80 80S467.8 160 512 160zM183.9 216c0-5.449 .9824-10.63 1.609-15.91C174.6 194.1 162.6 192 149.9 192H88.08C39.44 192 0 233.8 0 285.3C0 295.6 7.887 304 17.62 304h199.5C196.7 280.2 183.9 249.7 183.9 216zM128 160c44.18 0 80-35.82 80-80S172.2 0 128 0C83.82 0 48 35.82 48 80S83.82 160 128 160zM551.9 192h-61.84c-12.8 0-24.88 3.037-35.86 8.24C454.8 205.5 455.8 210.6 455.8 216c0 33.71-12.78 64.21-33.16 88h199.7C632.1 304 640 295.6 640 285.3C640 233.8 600.6 192 551.9 192z"
+            ></path>
+          </svg>
+          팀 인원
+          <h5>3</h5>
+        </li>
+        <li>
+          <svg
+            class="svg-inline--fa fa-clock list-icon"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="clock"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+        
+            width="20"
+            height="20"
+          >
+            <path
+              class=""
+              fill="currentColor"
+              d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"
+            ></path>
+          </svg>
+          개발 기간
+          <h5>5 개월</h5>
+        </li>
+        <li data-v-4fee038e="">
+            <svg 
+            class="svg-inline--fa fa-screwdriver-wrench list-icon" 
+            aria-hidden="true" 
+            focusable="false" 
+            data-prefix="fas"
+             data-icon="screwdriver-wrench" 
+             role="img" xmlns="http://www.w3.org/2000/svg" 
+             viewBox="0 0 512 512" data-v-4fee038e=""
+             width="20"
+            height="20"
+             >
+             <path class="" 
+             fill="currentColor" 
+             d="M331.8 224.1c28.29 0 54.88 10.99 74.86 30.97l19.59 19.59c40.01-17.74 71.25-53.3 81.62-96.65c5.725-23.92 5.34-47.08 .2148-68.4c-2.613-10.88-16.43-14.51-24.34-6.604l-68.9 68.9h-75.6V97.2l68.9-68.9c7.912-7.912 4.275-21.73-6.604-24.34c-21.32-5.125-44.48-5.51-68.4 .2148c-55.3 13.23-98.39 60.22-107.2 116.4C224.5 128.9 224.2 137 224.3 145l82.78 82.86C315.2 225.1 323.5 224.1 331.8 224.1zM384 278.6c-23.16-23.16-57.57-27.57-85.39-13.9L191.1 158L191.1 95.99l-127.1-95.99L0 63.1l96 127.1l62.04 .0077l106.7 106.6c-13.67 27.82-9.251 62.23 13.91 85.39l117 117.1c14.62 14.5 38.21 14.5 52.71-.0016l52.75-52.75c14.5-14.5 14.5-38.08-.0016-52.71L384 278.6zM227.9 307L168.7 247.9l-148.9 148.9c-26.37 26.37-26.37 69.08 0 95.45C32.96 505.4 50.21 512 67.5 512s34.54-6.592 47.72-19.78l119.1-119.1C225.5 352.3 222.6 329.4 227.9 307zM64 472c-13.25 0-24-10.75-24-24c0-13.26 10.75-24 24-24S88 434.7 88 448C88 461.3 77.25 472 64 472z">
+            </path>
+            </svg> 사용 엔진
+            <h5>Unity</h5>
+            </li>
+          </section>          
+        </div>
+    </div>
+    
+    <div class="phone-screenshot-container">        
+        <img class="phone-screenshot" src="video/heroesstory/1.gif" alt="GIF Image 1"></img>           
+        <img class="phone-screenshot" src="video/heroesstory/2.gif" alt="GIF Image 1"></img>                    
+    </div> 
+    <div class="paragraph center">                
+    
+        <i class="fa fa-google fa-lg fa-fw" style="color: white;"></i>
+        <a href="https://play.google.com/store/apps/details?id=com.hoitstudio.heroesstory" target="_blank" 
+        style="text-decoration: none; color: white; font-size:15px">구글 스토어 링크</a>    
+  
+        <i class="fa fa-apple fa-lg fa-fw" style="color: white;"></i>
+        <a href="https://apps.apple.com/kr/app/%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88-%EC%8A%A4%ED%86%A0%EB%A6%AC/id1544702806" target="_blank" 
+        style="text-decoration: none; color: white; font-size:15px">앱스토어</a>      
+
+        <i class="fa fa-github fa-lg fa-fw" style="color: white;"></i>
+        <a href="https://github.com/smhotkdg/HeroesStory" target="_blank"
+        style="text-decoration: none; color: white; font-size:15px">github 링크</a>        
+        
+        <i class="fa fa-youtube fa-lg fa-fw" style="color: white;"></i>
+        <a href="https://www.youtube.com/watch?v=tc_kgNIOmvU" target="_blank"
+        style="text-decoration: none; color: white; font-size:15px">유튜브 링크</a>
+        
+    </div>
+      <div class="popupInfoTitle">
+          소개
+    </div>
+    </br>
     <div class="popupInfoText">
     이 프로젝트는 우리 팀이 그동안 게임을 만들면서 "우리가 게임을 과연 만들고 있는게 맞나?"라는 의문으로 시작된 것입니다.</br>
     다양한 장르를 시도했지만 유저들의 반응과 게임을 통한 수익성 측면에서 부족한 결과를 얻었습니다.</br>
@@ -688,8 +864,7 @@ export default [
   이를 통해 게임 개발에서 수익 모델과 게임 디자인은 조화를 이루며 고려되어야 하며, 유저 경험을 향상시키는 것이 수익 증대에 더 큰 기여를 할 수 있다는 교훈을 얻게 되었습니다.
     </div>
     </br>       
-    `, "#383838",true),
-    
+    `, "#382238",false,true),
     new ProjectData("project-5", "Swipe Drive", "img/projects/swipedrive.png", `
     <div class="paragraph">
         <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
@@ -773,7 +948,7 @@ export default [
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#B42A16",false,true),
+    </div>`, "#B42A16",false),
     new ProjectData("project-5", "HoitHoitJump", "img/projects/jump.png", `
     <div class="paragraph">
         <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
