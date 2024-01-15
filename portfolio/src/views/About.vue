@@ -489,7 +489,7 @@
                 <img class="responsive-image" src="img/Logo/zombiewar.png" @click="showDetails(projects[10])"/>
               </div>
               <div class="timeline-date">2018.10 ~ 2012.12</div>
-              <div class="timeline-title" @click="showDetails(projects[10])">좀비전쟁-백신마스터</div>
+              <div class="timeline-title" @click="showDetails(projects[10])">좀비 전쟁-백신 마스터</div>
               <h4>Hoit Studio</h4>
               <p>
                 백신을 생산하여 좀비에 감염된 사람들을 치료하고
