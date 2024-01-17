@@ -119,7 +119,8 @@ export default [
         <img class="phone-screenshot" src="video/GalaxyTale/magicitem_1.gif" alt="GIF Image 1"></img>           
         <img class="phone-screenshot" src="video/GalaxyTale/normal_1.gif" alt="GIF Image 1"></img>           
     </div> 
-    <div class="paragraph center">                  
+    <div class="paragraph center">         
+    <div class="notice">         
         <i class="fa fa-google fa-lg fa-fw" style="color: white;"></i>
         <a href="https://play.google.com/store/apps/details?id=com.hoitstudio.tapzombie" target="_blank" 
         style="text-decoration: none; color: white; font-size:15px">구글 스토어 링크</a>       
@@ -129,9 +130,9 @@ export default [
         style="text-decoration: none; color: white; font-size:15px">github 링크</a>        
         
         <i class="fa fa-youtube fa-lg fa-fw" style="color: white;"></i>
-        <a href="https://youtube.com/shorts/9316blb5v6I" target="_blank"
+        <a href="https://www.youtube.com/watch?v=OmEI3zAp2oE" target="_blank"
         style="text-decoration: none; color: white; font-size:15px">유튜브 링크</a>
-        
+      </div>
     </div>
     <div class="popupInfoTitle">
           소개
@@ -150,15 +151,10 @@ export default [
         팀원들과의 협업을 통해 각 분야의 전문성을 최대한 활용하여 "갤럭시 테일"을 유저들에게 더욱 흥미로운 경험으로 제공할 수 있도록 노력하였습니다.
     </div>
 
-    <div class="popupInfoTitle">
-          소개
-    </div>
+  
     </br>
     
-    <div class="paragraph center">
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-    </div>
+  
     `, "#23bd69",true,true),
 
 
@@ -280,7 +276,8 @@ export default [
         <img class="phone-screenshot" src="video/tapzombie/tapzombie_1.gif" alt="GIF Image 1"></img>           
         <img class="phone-screenshot" src="video/tapzombie/tapzombie_2.gif" alt="GIF Image 1"></img>           
     </div> 
-    <div class="paragraph center">                  
+    <div class="paragraph center">     
+    <div class="notice">             
         <i class="fa fa-google fa-lg fa-fw" style="color: white;"></i>
         <a href="https://play.google.com/store/apps/details?id=com.hoitstudio.tapzombie" target="_blank" 
         style="text-decoration: none; color: white; font-size:15px">구글 스토어 링크</a>       
@@ -296,7 +293,7 @@ export default [
         <i class="fa fa-youtube fa-lg fa-fw" style="color: white;"></i>
         <a href="https://youtube.com/shorts/YArSjMc605w" target="_blank"
         style="text-decoration: none; color: white; font-size:15px">유튜브 링크</a>
-        
+        </div>
     </div>
     <div class="popupInfoTitle">
           소개
@@ -453,6 +450,7 @@ export default [
         <img class="phone-screenshot" src="video/styx/2.gif" alt="GIF Image 1"></img>                    
     </div> 
     <div class="paragraph center">                  
+    <div class="notice">
         <i class="fa fa-google fa-lg fa-fw" style="color: white;"></i>
         <a href="https://play.google.com/store/apps/details?id=com.hoitstudio.styx" target="_blank" 
         style="text-decoration: none; color: white; font-size:15px">구글 스토어 링크</a>       
@@ -473,7 +471,7 @@ export default [
         <i class="fa fa-youtube fa-lg fa-fw" style="color: white;"></i>
         <a href="https://www.youtube.com/watch?v=ZrUee8Hx-Bw" target="_blank"
         style="text-decoration: none; color: white; font-size:15px">유튜브 링크</a>
-        
+      </div>
     </div>
       <div class="popupInfoTitle">
           소개
@@ -632,7 +630,7 @@ export default [
         <img class="phone-screenshot" src="video/heroesstory/2.gif" alt="GIF Image 1"></img>                    
     </div> 
     <div class="paragraph center">                
-    
+    <div class="notice">
         <i class="fa fa-google fa-lg fa-fw" style="color: white;"></i>
         <a href="https://play.google.com/store/apps/details?id=com.hoitstudio.heroesstory" target="_blank" 
         style="text-decoration: none; color: white; font-size:15px">구글 스토어 링크</a>    
@@ -648,7 +646,7 @@ export default [
         <i class="fa fa-youtube fa-lg fa-fw" style="color: white;"></i>
         <a href="https://www.youtube.com/watch?v=tc_kgNIOmvU" target="_blank"
         style="text-decoration: none; color: white; font-size:15px">유튜브 링크</a>
-        
+      </div>
     </div>
       <div class="popupInfoTitle">
           소개
@@ -807,7 +805,8 @@ export default [
         <img class="phone-screenshot" src="video/reaper/reaper.gif" alt="GIF Image 1"></img>           
         <img class="phone-screenshot" src="video/reaper/reaper2.png" ></img>                    
     </div> 
-    <div class="paragraph center">          
+    <div class="paragraph center">       
+    <div class="notice">   
         <i class="fa fa-apple fa-lg fa-fw" style="color: white;"></i>
         <a href="https://apps.apple.com/us/app/reaper-soul-stealer/id1514068745" target="_blank" 
         style="text-decoration: none; color: white; font-size:15px">앱스토어</a>      
@@ -819,7 +818,7 @@ export default [
         <i class="fa fa-youtube fa-lg fa-fw" style="color: white;"></i>
         <a href="https://youtube.com/shorts/hGN68Pzm6Bg" target="_blank"
         style="text-decoration: none; color: white; font-size:15px">유튜브 링크</a>
-        
+    </div>
     </div>
       <div class="popupInfoTitle">
           소개
@@ -966,7 +965,8 @@ export default [
         <img class="phone-screenshot" src="video/swipedrive/swipedrive1.gif" alt="GIF Image 1"></img>           
         <img class="phone-screenshot" src="video/swipedrive/swipedrive2.gif" alt="GIF Image 1"></img>           
     </div> 
-    <div class="paragraph center">          
+    <div class="paragraph center">   
+    <div class="notice">       
         <i class="fa fa-apple fa-lg fa-fw" style="color: white;"></i>
         <a href="https://apps.apple.com/us/app/swipedrive/id1507873127" target="_blank" 
         style="text-decoration: none; color: white; font-size:15px">앱스토어</a>      
@@ -978,7 +978,7 @@ export default [
         <i class="fa fa-youtube fa-lg fa-fw" style="color: white;"></i>
         <a href="https://youtube.com/shorts/3SIpds8rqnQ" target="_blank"
         style="text-decoration: none; color: white; font-size:15px">유튜브 링크</a>
-        
+    </div>
     </div>
       <div class="popupInfoTitle">
           소개
@@ -1108,7 +1108,8 @@ export default [
         <img class="phone-screenshot" src="video/mergemine/1.gif" alt="GIF Image 1"></img>           
         <img class="phone-screenshot" src="video/mergemine/2.gif" alt="GIF Image 1"></img>           
     </div> 
-    <div class="paragraph center">          
+    <div class="paragraph center">         
+    <div class="notice"> 
         <i class="fa fa-google fa-lg fa-fw" style="color: white;"></i>
         <a href="https://play.google.com/store/apps/details?id=com.hoitstudio.mergemine" target="_blank" 
         style="text-decoration: none; color: white; font-size:15px">구글 스토어</a>      
@@ -1120,7 +1121,7 @@ export default [
         <i class="fa fa-youtube fa-lg fa-fw" style="color: white;"></i>
         <a href="https://youtube.com/shorts/BbAD0mnmKT0" target="_blank"
         style="text-decoration: none; color: white; font-size:15px">유튜브 링크</a>
-        
+    </div>
     </div>
       <div class="popupInfoTitle">
           소개
@@ -1255,6 +1256,7 @@ export default [
         <img class="phone-screenshot" src="video/mrmine/mrmine2.gif" alt="GIF Image 1"></img>           
     </div> 
     <div class="paragraph center">          
+    <div class="notice">
         <i class="fa fa-google fa-lg fa-fw" style="color: white;"></i>
         <a href="https://play.google.com/store/apps/details?id=com.hoitstudio.mergemine" target="_blank" 
         style="text-decoration: none; color: white; font-size:15px">구글 스토어</a>      
@@ -1266,7 +1268,7 @@ export default [
         <i class="fa fa-youtube fa-lg fa-fw" style="color: white;"></i>
         <a href="https://youtube.com/shorts/BbAD0mnmKT0" target="_blank"
         style="text-decoration: none; color: white; font-size:15px">유튜브 링크</a>
-        
+    </div>
     </div>
       <div class="popupInfoTitle">
           소개
@@ -1405,6 +1407,7 @@ export default [
         <img class="phone-screenshot" src="video/jump/jump2.gif" alt="GIF Image 1"></img>           
     </div> 
     <div class="paragraph center">          
+    <div class="notice">
         <i class="fa fa-google fa-lg fa-fw" style="color: white;"></i>
         <a href="https://play.google.com/store/apps/details?id=com.hoitstudio.hoithoitjump" target="_blank" 
         style="text-decoration: none; color: white; font-size:15px">구글 스토어</a>      
@@ -1416,7 +1419,7 @@ export default [
         <i class="fa fa-youtube fa-lg fa-fw" style="color: white;"></i>
         <a href="https://youtube.com/shorts/SR6UKQEIpGg" target="_blank"
         style="text-decoration: none; color: white; font-size:15px">유튜브 링크</a>
-        
+    </div>
     </div>
       <div class="popupInfoTitle">
           소개
@@ -1551,6 +1554,7 @@ export default [
         <img class="phone-screenshot" src="video/Hop/Hop.gif" alt="GIF Image 1"></img>                   
     </div> 
     <div class="paragraph center">          
+    <div class="notice">
         <i class="fa fa-github fa-lg fa-fw" style="color: white;"></i>
         <a href="https://github.com/smhotkdg/HoitHoitHop" target="_blank"
         style="text-decoration: none; color: white; font-size:15px">github 링크</a>        
@@ -1558,7 +1562,7 @@ export default [
         <i class="fa fa-youtube fa-lg fa-fw" style="color: white;"></i>
         <a href="https://youtube.com/shorts/vA-t3Ky9ZRw" target="_blank"
         style="text-decoration: none; color: white; font-size:15px">유튜브 링크</a>
-        
+    </div>
     </div>
       <div class="popupInfoTitle">
           소개
@@ -1694,6 +1698,7 @@ export default [
         <img class="phone-screenshot" src="video/zombiewar/zombiewar1.gif" alt="GIF Image 1"></img>                   
     </div> 
     <div class="paragraph center">          
+    <div class="notice">
         <i class="fa fa-github fa-lg fa-fw" style="color: white;"></i>
         <a href="https://github.com/smhotkdg/zombiewar" target="_blank"
         style="text-decoration: none; color: white; font-size:15px">github 링크</a>        
@@ -1701,7 +1706,7 @@ export default [
         <i class="fa fa-youtube fa-lg fa-fw" style="color: white;"></i>
         <a href="https://youtu.be/z3gZxYEoiew" target="_blank"
         style="text-decoration: none; color: white; font-size:15px">유튜브 링크</a>
-        
+    </div>
     </div>
       <div class="popupInfoTitle">
           소개
@@ -1841,6 +1846,7 @@ export default [
         <img class="phone-screenshot" src="video/digduk/digduk2.gif" alt="GIF Image 1"></img>                   
     </div> 
     <div class="paragraph center">          
+    <div class="notice">
         <i class="fa fa-github fa-lg fa-fw" style="color: white;"></i>
         <a href="https://github.com/smhotkdg/DigDuk" target="_blank"
         style="text-decoration: none; color: white; font-size:15px">github 링크</a>        
@@ -1848,7 +1854,7 @@ export default [
         <i class="fa fa-youtube fa-lg fa-fw" style="color: white;"></i>
         <a href="https://youtu.be/inc_IpB1S1Q" target="_blank"
         style="text-decoration: none; color: white; font-size:15px">유튜브 링크</a>
-        
+    </div>
     </div>
       <div class="popupInfoTitle">
           소개

@@ -1,9 +1,8 @@
 <template>
   <div>
     
-    <h1>Let's get in touch</h1>
+    <h1>Contact information</h1>
 
-    <div style="margin-bottom:40px;">I'm looking for a job !<br/>Feel free to contact me about any opportunity, or just to chat about cooking, kittens or anything else.</div>
 
     <ul>
       <li>

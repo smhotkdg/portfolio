@@ -59,7 +59,7 @@
               <br>
               <p>
                 <i class="fa fa-google fa-lg fa-fw"></i>
-                <a href="https://play.google.com/store/apps/details?id=com.hoitstudio.tapzombie" target="_blank">구글 스토어
+                <a href="https://www.youtube.com/watch?v=OmEI3zAp2oE" target="_blank">구글 스토어
                   링크</a>
               </p>
               <p>
@@ -69,7 +69,7 @@
               </p>
               <p>
                 <i class="fa fa-youtube fa-lg fa-fw"></i>
-                <a href="https://youtube.com/shorts/9316blb5v6I" target="_blank">유튜브 링크</a>
+                <a href="https://www.youtube.com/watch?v=OmEI3zAp2oE" target="_blank">유튜브 링크</a>
               <p>
               </p>
             </div>
