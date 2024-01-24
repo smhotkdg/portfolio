@@ -337,8 +337,7 @@ export default [
   <div class="experience">    
   <section class="job-card">
     <h3>개요</h3>
-    카메라 기반 실시간 번호판 검출을 위한 알고리즘 개발. 실시간 검출, 신형, 구형 번호판 검출, 시속 30km 이하로 주행
-    하는 차량번호판 검출. 
+    실시간으로 고속 도로 및 국도의 도로 영역을 검출하는 알고리즘 연구 및 CUDA를 이용한 고속화
  
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
   </section>
@@ -484,9 +483,7 @@ export default [
   <div class="experience">    
   <section class="job-card">
     <h3>개요</h3>
-    카메라 기반 실시간 번호판 검출을 위한 알고리즘 개발. 실시간 검출, 신형, 구형 번호판 검출, 시속 30km 이하로 주행
-    하는 차량번호판 검출. 
- 
+    운전자의 사각지대 영역의 차량을 검출하여 위험을 알리는 시스템 연구 및 개발
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
   </section>
   <section class="job-card">
@@ -634,8 +631,7 @@ export default [
   <div class="experience">    
   <section class="job-card">
     <h3>개요</h3>
-    카메라 기반 실시간 번호판 검출을 위한 알고리즘 개발. 실시간 검출, 신형, 구형 번호판 검출, 시속 30km 이하로 주행
-    하는 차량번호판 검출. 
+    근거리 무선 광 통신의 H.264/AVC를 기반으로 한 encoder 개발
  
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
   </section>
@@ -793,9 +789,7 @@ export default [
   <div class="experience">    
   <section class="job-card">
     <h3>개요</h3>
-    카메라 기반 실시간 번호판 검출을 위한 알고리즘 개발. 실시간 검출, 신형, 구형 번호판 검출, 시속 30km 이하로 주행
-    하는 차량번호판 검출. 
- 
+    모든 영상을 녹화하는 CCTV가 아닌 움직임이 감지되며 얼굴의 DNA가 등록되지 않은 사람이 등장하면 녹화 및 모바일 알림을 주는 시스템 개발
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
   </section>
   <section class="job-card">
@@ -937,8 +931,7 @@ export default [
   <div class="experience">    
   <section class="job-card">
     <h3>개요</h3>
-    카메라 기반 실시간 번호판 검출을 위한 알고리즘 개발. 실시간 검출, 신형, 구형 번호판 검출, 시속 30km 이하로 주행
-    하는 차량번호판 검출. 
+    이미지의 텍스트를 숨겨주는 프로그램 개발
  
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
   </section>

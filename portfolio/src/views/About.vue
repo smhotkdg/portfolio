@@ -59,7 +59,7 @@
               <br>
               <p>
                 <i class="fa fa-google fa-lg fa-fw"></i>
-                <a href="https://www.youtube.com/watch?v=OmEI3zAp2oE" target="_blank">구글 스토어
+                <a href="https://cozy0614.itch.io/galaxy-tale" target="_blank">웹 링크
                   링크</a>
               </p>
               <p>

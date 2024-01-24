@@ -122,8 +122,8 @@ export default [
     <div class="paragraph center">         
     <div class="notice">         
         <i class="fa fa-google fa-lg fa-fw" style="color: white;"></i>
-        <a href="https://play.google.com/store/apps/details?id=com.hoitstudio.tapzombie" target="_blank" 
-        style="text-decoration: none; color: white; font-size:15px">구글 스토어 링크</a>       
+        <a href="https://cozy0614.itch.io/galaxy-tale" target="_blank" 
+        style="text-decoration: none; color: white; font-size:15px">웹 링크</a>       
         
         <i class="fa fa-github fa-lg fa-fw" style="color: white;"></i>
         <a href="https://github.com/smhotkdg/MeowMeowPunch" target="_blank"
@@ -998,11 +998,12 @@ export default [
     <div class="experience">    
     <section class="job-card">
       <h3>개요</h3>
-      Swipe Drive는 Unity 엔진을 사용해서 제작한 캐쥬얼 게임입니다.
+      머지마인:골드러쉬는 Unity 엔진을 사용해서 캐쥬얼 머지 게임입니다.
       <br/><br/>
-      간단한 Swipe를 통해 차량이 이동할 경로를 그립니다.</br>
-      차량은 그려진 경로로 진행하며 장애물을 피해 목적지에 도달하면 스테이지가 클리어 되는 캐주얼 게임입니다.
-      <br/><br/><br/><br/><br/><br/><br/><br/>
+      
+
+100가지가 넘는 광부를 합체하여 새로운 광부를 획득하고 더 많은 골드를 획득하는 게임입니다.
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     </section>
     <section class="job-card">
       <h3>프로젝트 정보</h3>
