@@ -46,12 +46,29 @@
       "end": "2026",
       "summary": "TuSimple 데이터셋으로 학습한 이진 픽셀 분할 모델을 ONNX에서 ESP-DL INT8로 양자화해 ESP32-S3에서 실시간 추론합니다. 공개강의 사례로 사용했습니다.",
       "metrics": [
-        { "value": "4.41 fps", "label": "보드 실측" },
-        { "value": "160×96", "label": "입력 해상도" },
-        { "value": "INT8", "label": "양자화" },
-        { "value": "0.7·F1 + 0.3·IoU", "label": "평가 점수식" }
+        {
+          "value": "4.41 fps",
+          "label": "보드 실측"
+        },
+        {
+          "value": "160×96",
+          "label": "입력 해상도"
+        },
+        {
+          "value": "INT8",
+          "label": "양자화"
+        },
+        {
+          "value": "0.7·F1 + 0.3·IoU",
+          "label": "평가 점수식"
+        }
       ],
-      "stack": ["ESP32-S3", "ESP-DL", "ONNX", "TuSimple"],
+      "stack": [
+        "ESP32-S3",
+        "ESP-DL",
+        "ONNX",
+        "TuSimple"
+      ],
       "links": []
     },
     {
@@ -62,8 +79,12 @@
       "end": null,
       "summary": "TwinLiteNet+ 기반으로 차량이 주행할 영역과 따라갈 선을 안내합니다. 용인 운전면허시험장 기능시험 코스를 재구성한 Python 시뮬레이터에서 폐루프 주행으로 검증하고 있습니다.",
       "metrics": [],
-      "stack": ["TwinLiteNet+", "Python", "Simulation"],
-      "links": [{ "label": "GitHub", "url": "https://github.com/smhotkdg/drivable-area-estimation" }]
+      "stack": [
+        "TwinLiteNet+",
+        "Python",
+        "Simulation"
+      ],
+      "links": []
     },
     {
       "id": "exam-lockdown",
@@ -73,8 +94,10 @@
       "end": "2026",
       "summary": "실습 시험 중 AI 사이트와 프로그램을 차단하는 도구를 직접 만들어 중간고사에 사용했습니다. 트레이 상주, 부팅 시 자동 실행됩니다.",
       "metrics": [],
-      "stack": ["Windows"],
-      "links": [{ "label": "GitHub", "url": "https://github.com/smhotkdg/ExamLockdown" }]
+      "stack": [
+        "Windows"
+      ],
+      "links": []
     }
   ]
 }
