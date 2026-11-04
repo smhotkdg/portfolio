@@ -63,5 +63,13 @@
       "subtitle": "Windows exam lockdown tool for class",
       "summary": "A tool I built to block AI websites and programs during hands-on exams, used for midterms. Runs from the system tray and starts at boot."
     }
+  ],
+  "books": [
+    {
+      "id": "genai-intro",
+      "title": "Introduction to Generative AI for University Freshmen",
+      "authors": "Chanseop Park · Seunghun Yang",
+      "publisher": "Halla University SW-Centered University"
+    }
   ]
 }

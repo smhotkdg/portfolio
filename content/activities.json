@@ -1,5 +1,19 @@
 [
   {
+    "id": "book-genai-intro",
+    "type": "book",
+    "start": "2026",
+    "end": null,
+    "title": "《대학 신입생들을 위한 생성형 AI 입문》 출간",
+    "org": "한라대학교 SW중심대학",
+    "desc": "박찬섭 · 양승훈 공저",
+    "links": [],
+    "images": [
+      "assets/img/books/genai-intro-cover.jpg"
+    ],
+    "cover": "assets/img/books/genai-intro-cover.jpg"
+  },
+  {
     "id": "pujia8-contract",
     "type": "contract",
     "start": "2023.01",

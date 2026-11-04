@@ -1,5 +1,11 @@
 [
   {
+    "id": "book-genai-intro",
+    "title": "Published: Introduction to Generative AI for University Freshmen",
+    "org": "Halla University SW-Centered University",
+    "desc": "Co-authored with Chanseop Park"
+  },
+  {
     "id": "pujia8-contract",
     "title": "China publishing deal for Sea of Death",
     "org": "Pujia8 Studio (China)"

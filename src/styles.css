@@ -148,6 +148,13 @@ p { margin: 0; }
 .metrics b { font-family: var(--font-mono); font-weight: 500; font-size: var(--t-lg); font-variant-numeric: tabular-nums; }
 .metrics span { color: var(--muted); font-size: var(--t-xs); }
 
+/* books */
+.books { display: grid; gap: var(--s-4); margin-bottom: var(--s-7); }
+.book { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: var(--s-5); align-items: center; padding: var(--s-4); background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); max-width: 720px; }
+.book img { width: 120px; aspect-ratio: 1406 / 1966; object-fit: cover; border-radius: 2px; border: 1px solid var(--line); }
+.book h3 { font-size: var(--t-lg); margin: var(--s-1) 0; line-height: 1.45; }
+@media (max-width: 480px) { .book { grid-template-columns: 88px minmax(0, 1fr); gap: var(--s-4); } .book img { width: 88px; } }
+
 /* table */
 .table-scroll { overflow-x: auto; }
 .courses { width: 100%; min-width: 620px; border-collapse: collapse; font-size: var(--t-sm); }
@@ -203,6 +210,7 @@ p { margin: 0; }
 .activity-body { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: var(--s-5); align-items: start; }
 .activity-body > div:only-child { grid-column: 1 / -1; }
 .act-thumb { width: 140px; aspect-ratio: 530 / 250; object-fit: cover; border-radius: var(--r-md); border: 1px solid var(--line); }
+.act-thumb.portrait { width: 72px; aspect-ratio: 1406 / 1966; border-radius: 2px; }
 @media (max-width: 640px) { .activity-body { grid-template-columns: 96px minmax(0, 1fr); gap: var(--s-4); } .act-thumb { width: 96px; } }
 .photos { margin-top: var(--s-3); }
 .photos summary { cursor: pointer; font-size: var(--t-sm); color: var(--primary); width: fit-content; }

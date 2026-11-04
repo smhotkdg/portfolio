@@ -48,7 +48,7 @@ const UI = {
     nav: [["teaching", "강의"], ["now", "진행 중"], ["research", "연구"], ["games", "게임 개발"], ["career", "경력·학력"], ["activities", "수상·활동"]],
     updated: "최종 업데이트", viewGithub: "GitHub에서 보기", store: "스토어", photo: "사진",
     facts: (careerTotal, nGames, nResearch) => [[careerTotal, "실무 경력"], [`${nGames}종`, "모바일 게임 개발"], [`${nResearch}건`, "연구·수탁 과제"], ["ISVC'15", "국제학회 논문"]],
-    teaching: "강의", course: "과목", kind: "구분", content: "내용", credits: (c, l) => `${c}학점 · ${l}`,
+    teaching: "강의", book: "저서", bookCover: "표지", course: "과목", kind: "구분", content: "내용", credits: (c, l) => `${c}학점 · ${l}`,
     talks: "공개강의 · 발표", materials: "교육 자료",
     now: "진행 중인 프로젝트", live: "진행 중",
     research: "연구", researchMain: "연구 · 수탁 과제", researchStudent: "학부 프로젝트",
@@ -60,7 +60,7 @@ const UI = {
     devShort: "개발", ops: "출시 후 운영", unreleased: "미출시",
     career: "경력 · 학력", careerNote: (t) => `총 ${t}`, education: "학력",
     activities: "수상 · 활동",
-    type: { award: "수상", program: "선정", exhibition: "전시", publication: "논문", conference: "학회", contract: "계약", training: "교육" },
+    type: { book: "저서", award: "수상", program: "선정", exhibition: "전시", publication: "논문", conference: "학회", contract: "계약", training: "교육" },
     photos: (n) => `사진 ${n}장`,
     back: { games: "← 게임 개발", research: "← 연구" },
     story: "개발 이야기", goal: "목표", work: "한 일", lessons: "배운 점", related: "관련 수상 · 활동",
@@ -75,7 +75,7 @@ const UI = {
     nav: [["teaching", "Teaching"], ["now", "Current"], ["research", "Research"], ["games", "Games"], ["career", "Experience"], ["activities", "Awards"]],
     updated: "Last updated", viewGithub: "View on GitHub", store: "the store", photo: "Photo",
     facts: (careerTotal, nGames, nResearch) => [[careerTotal, "Industry experience"], [`${nGames}`, "Mobile games built"], [`${nResearch}`, "Research & contract projects"], ["ISVC'15", "International paper"]],
-    teaching: "Teaching", course: "Course", kind: "Credits", content: "Description", credits: (c, l) => `${c} credits · ${l}`,
+    teaching: "Teaching", book: "Book", bookCover: "cover", course: "Course", kind: "Credits", content: "Description", credits: (c, l) => `${c} credits · ${l}`,
     talks: "Talks & public lectures", materials: "Teaching materials",
     now: "Current projects", live: "Ongoing",
     research: "Research", researchMain: "Funded & contract research", researchStudent: "Undergraduate projects",
@@ -87,7 +87,7 @@ const UI = {
     devShort: "dev", ops: "Live operations", unreleased: "Unreleased",
     career: "Experience · Education", careerNote: (t) => `${t} total`, education: "Education",
     activities: "Awards & Activities",
-    type: { award: "Award", program: "Program", exhibition: "Exhibition", publication: "Paper", conference: "Conference", contract: "Contract", training: "Training" },
+    type: { book: "Book", award: "Award", program: "Program", exhibition: "Exhibition", publication: "Paper", conference: "Conference", contract: "Contract", training: "Training" },
     photos: (n) => `${n} photos`,
     back: { games: "← Games", research: "← Research" },
     story: "Behind the game", goal: "Goal", work: "What I did", lessons: "Lessons", related: "Related awards & activities",
@@ -238,7 +238,7 @@ ${body}
 </main>
 <footer class="foot">
   <div class="wrap">
-    <span>© ${new Date().getFullYear()} ${esc(profile.name)} · ${esc(profile.nameEn)}</span>
+    <span>© ${new Date().getFullYear()} ${esc(profile.name)}${profile.nameEn ? ` · ${esc(profile.nameEn)}` : ""}</span>
     <span>${T.updated} ${builtAt}</span>
     <a href="${esc(site.repo)}" target="_blank" rel="noopener">${T.viewGithub}</a>
   </div>
@@ -257,7 +257,7 @@ function hero() {
   const facts = T.facts(p.careerTotal, games.length, funded);
   return `<header class="hero wrap" id="top">
   <div class="hero-text">
-    <p class="en-name">${esc(p.nameEn)}</p>
+    ${p.nameEn ? `<p class="en-name">${esc(p.nameEn)}</p>` : ""}
     <h1>${esc(p.name)}</h1>
     <p class="position">${esc(p.position)}</p>
     <p class="headline">${esc(p.headline)}</p>
@@ -288,8 +288,19 @@ function teachingSection() {
   const talks = teaching.talks
     .map((t) => `<div class="row"><div class="when">${esc(t.date)}</div><div><h3>${esc(t.title)}</h3><p class="sub">${esc(t.subtitle)} · ${esc(t.venue)}</p></div></div>`)
     .join("");
+  const books = (teaching.books || [])
+    .map((b) => `<article class="book">
+      <a href="${src(b.cover, 0)}" target="_blank" rel="noopener"><img src="${src(b.cover, 0)}" alt="${esc(b.title)} ${T.bookCover}" loading="lazy"></a>
+      <div>
+        <p class="type">${T.book} · ${esc(b.year)}</p>
+        <h3>${esc(b.title)}</h3>
+        <p class="sub">${esc(b.authors)} · ${esc(b.publisher)}</p>
+      </div>
+    </article>`)
+    .join("");
   return `<section class="wrap section" id="teaching">
   ${sectionHead(T.teaching, "Teaching")}
+  ${books ? `<div class="books">${books}</div>` : ""}
   ${terms}
   <div class="split">
     <div><h3 class="minor">${T.talks}</h3><div class="rows">${talks}</div></div>
@@ -468,7 +479,7 @@ function activitiesSection() {
       return `<article class="row activity">
       <div class="when">${period(a.start, a.end === null ? undefined : a.end)}</div>
       <div class="activity-body">
-        ${a.cover ? `<img class="act-thumb" src="${src(a.cover, 0)}" alt="" loading="lazy">` : ""}
+        ${a.cover ? `<img class="act-thumb${a.type === "book" ? " portrait" : ""}" src="${src(a.cover, 0)}" alt="" loading="lazy">` : ""}
         <div>
           <p class="type">${T.type[a.type] || ""}</p>
           <h3>${esc(a.title)}</h3>
@@ -606,7 +617,7 @@ for (const lang of LANGS) {
     if (L !== "ko") {
       // 번역이 빠져 한글이 남은 곳 찾기 (이름 표기와 언어 전환 버튼은 제외)
       const body = html.replace(/<head>[\s\S]*?<\/head>/, "").replace(/<[^>]+>/g, " ").replace(/data-template="[^"]*"/g, "");
-      const allowed = [profile.nameEn, ...games.map((g) => g.titleEn).filter(Boolean)];
+      const allowed = [profile.nameEn || "\u0000", ...games.map((g) => g.titleEn).filter(Boolean)];
       let rest = body;
       for (const a of allowed) rest = rest.split(a).join("");
       const hits = rest.match(/[가-힣][^<>\n]{0,30}/g);
