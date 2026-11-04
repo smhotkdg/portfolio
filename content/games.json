@@ -257,6 +257,7 @@
     "team": 3,
     "engine": "Unity",
     "platforms": [
+      "Android",
       "iOS"
     ],
     "contribution": {
@@ -311,6 +312,7 @@
     "team": 3,
     "engine": "Unity",
     "platforms": [
+      "Android",
       "iOS"
     ],
     "contribution": {
@@ -361,7 +363,8 @@
     "team": 3,
     "engine": "Unity",
     "platforms": [
-      "Android"
+      "Android",
+      "iOS"
     ],
     "contribution": {
       "dev": 100,
@@ -409,7 +412,8 @@
     "team": 3,
     "engine": "Unity",
     "platforms": [
-      "Android"
+      "Android",
+      "iOS"
     ],
     "contribution": {
       "dev": 100,
@@ -456,7 +460,8 @@
     "team": 3,
     "engine": "Unity",
     "platforms": [
-      "Android"
+      "Android",
+      "iOS"
     ],
     "contribution": {
       "dev": 100,
@@ -503,7 +508,10 @@
     "devDuration": "2주",
     "team": 3,
     "engine": "Unity",
-    "platforms": [],
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
     "contribution": {
       "dev": 100,
       "uiux": 40,
@@ -543,7 +551,10 @@
     "devDuration": "2개월",
     "team": 3,
     "engine": "Unity",
-    "platforms": [],
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
     "contribution": {
       "dev": 100,
       "uiux": 40,
@@ -584,7 +595,10 @@
     "devDuration": "7개월",
     "team": 3,
     "engine": "Unity",
-    "platforms": [],
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
     "contribution": {
       "dev": 100,
       "uiux": 60,

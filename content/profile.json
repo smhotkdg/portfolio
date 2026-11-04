@@ -72,6 +72,25 @@
         "label": "Steam",
         "url": "https://store.steampowered.com/search/?developer=Hoit%20Studio"
       }
+    ],
+    "operations": [
+      {
+        "title": "데이터 · 성과 분석",
+        "tools": [
+          "Firebase",
+          "Google Analytics"
+        ],
+        "desc": "Firebase와 Google Analytics로 유저 행동 데이터와 광고 집행 성과를 분석하고, 업데이트와 수익화 결정에 반영했습니다."
+      },
+      {
+        "title": "광고 집행 · 소재 제작",
+        "tools": [
+          "Google Ads",
+          "Facebook Ads",
+          "Unity Ads"
+        ],
+        "desc": "Google Ads, Facebook Ads, Unity Ads로 유저 획득 광고를 집행하고, 소재별 성과를 분석해 광고 소재를 직접 제작했습니다."
+      }
     ]
   },
   "avatar": "assets/img/profile.png"

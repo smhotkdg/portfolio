@@ -289,10 +289,22 @@ function gameCard(g) {
   </li>`;
 }
 
+function opsBlock() {
+  const ops = profile.studio?.operations;
+  if (!ops?.length) return "";
+  return `<div class="ops">
+    <h3 class="minor">출시 후 운영</h3>
+    <div class="ops-grid">${ops
+      .map((o) => `<div class="op"><h4>${esc(o.title)}</h4><p>${esc(o.desc)}</p>${chips(o.tools, "stack")}</div>`)
+      .join("")}</div>
+  </div>`;
+}
+
 function gamesSection() {
   return `<section class="wrap section" id="games">
   ${sectionHead("게임 개발", "Games", `<span class="sec-note">Hoit Studio · Unity · 팀 3명</span>`)}
   ${gameChart()}
+  ${opsBlock()}
   <ul class="game-grid">${games.map(gameCard).join("")}</ul>
 </section>`;
 }

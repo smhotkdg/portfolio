@@ -173,6 +173,15 @@ p { margin: 0; }
 .chart a:hover .glabel { text-decoration: underline; }
 .chart figcaption { font-size: var(--t-sm); color: var(--muted); margin-top: var(--s-2); }
 
+/* game ops */
+.ops { margin-bottom: var(--s-7); }
+.ops .minor { margin-top: 0; }
+.ops-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s-5); }
+@media (max-width: 720px) { .ops-grid { grid-template-columns: minmax(0, 1fr); } }
+.op { border-top: 1px solid var(--line); padding-top: var(--s-3); }
+.op h4 { margin: 0 0 var(--s-1); font-size: var(--t-md); }
+.op p { font-size: var(--t-sm); color: var(--muted); max-width: 60ch; }
+
 /* game grid */
 .game-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s-5); }
 @media (max-width: 960px) { .game-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
