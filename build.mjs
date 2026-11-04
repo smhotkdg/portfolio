@@ -431,7 +431,9 @@ function gamePage(g, i) {
   <div class="detail-grid">
     <div class="detail-main">
       <p class="lead-text">${esc(g.summary)}</p>
-      ${g.goal ? `<h2 class="minor">목표</h2><p>${esc(g.goal)}</p>` : ""}
+      ${g.story?.length
+        ? `<h2 class="minor">개발 이야기</h2><div class="story">${g.story.map((t) => `<p>${esc(t)}</p>`).join("")}</div>`
+        : g.goal ? `<h2 class="minor">목표</h2><p>${esc(g.goal)}</p>` : ""}
       ${g.work?.length ? `<h2 class="minor">한 일</h2>${bullets(g.work)}` : ""}
       ${g.lessons?.length ? `<h2 class="minor">배운 점</h2>${bullets(g.lessons)}` : ""}
       ${awards.length ? `<h2 class="minor">관련 수상 · 활동</h2><ul class="bullets">${awards.map((a) => `<li>${esc(a.title)} <span class="mono muted">${esc(a.start)}</span></li>`).join("")}</ul>` : ""}
