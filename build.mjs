@@ -45,10 +45,10 @@ function loadData(lang) {
 const UI = {
   ko: {
     htmlLang: "ko", present: "현재", todo: "입력 필요", skip: "본문으로 건너뛰기", navLabel: "섹션",
-    nav: [["teaching", "강의"], ["now", "진행 중"], ["research", "연구"], ["games", "게임 개발"], ["career", "경력·학력"], ["activities", "수상·활동"]],
+    nav: [["teaching", "강의"], ["now", "진행 중"], ["books", "저서"], ["research", "연구"], ["games", "게임 개발"], ["career", "경력·학력"], ["activities", "수상·활동"]],
     updated: "최종 업데이트", viewGithub: "GitHub에서 보기", store: "스토어", photo: "사진",
     facts: (careerTotal, nGames, nResearch) => [[careerTotal, "실무 경력"], [`${nGames}종`, "모바일 게임 개발"], [`${nResearch}건`, "연구·수탁 과제"], ["ISVC'15", "국제학회 논문"]],
-    teaching: "강의", book: "저서", bookCover: "표지", course: "과목", kind: "구분", content: "내용", credits: (c, l) => `${c}학점 · ${l}`,
+    teaching: "강의", books: "저서", book: "저서", bookCover: "표지", course: "과목", kind: "구분", content: "내용", credits: (c, l) => `${c}학점 · ${l}`,
     talks: "공개강의 · 발표", materials: "교육 자료",
     now: "진행 중인 프로젝트", live: "진행 중",
     research: "연구", researchMain: "연구 · 수탁 과제", researchStudent: "학부 프로젝트",
@@ -72,10 +72,10 @@ const UI = {
   },
   en: {
     htmlLang: "en", present: "Present", todo: "TBD", skip: "Skip to content", navLabel: "Sections",
-    nav: [["teaching", "Teaching"], ["now", "Current"], ["research", "Research"], ["games", "Games"], ["career", "Experience"], ["activities", "Awards"]],
+    nav: [["teaching", "Teaching"], ["now", "Current"], ["books", "Books"], ["research", "Research"], ["games", "Games"], ["career", "Experience"], ["activities", "Awards"]],
     updated: "Last updated", viewGithub: "View on GitHub", store: "the store", photo: "Photo",
     facts: (careerTotal, nGames, nResearch) => [[careerTotal, "Industry experience"], [`${nGames}`, "Mobile games built"], [`${nResearch}`, "Research & contract projects"], ["ISVC'15", "International paper"]],
-    teaching: "Teaching", book: "Book", bookCover: "cover", course: "Course", kind: "Credits", content: "Description", credits: (c, l) => `${c} credits · ${l}`,
+    teaching: "Teaching", books: "Books", book: "Book", bookCover: "cover", course: "Course", kind: "Credits", content: "Description", credits: (c, l) => `${c} credits · ${l}`,
     talks: "Talks & public lectures", materials: "Teaching materials",
     now: "Current projects", live: "Ongoing",
     research: "Research", researchMain: "Funded & contract research", researchStudent: "Undergraduate projects",
@@ -288,19 +288,8 @@ function teachingSection() {
   const talks = teaching.talks
     .map((t) => `<div class="row"><div class="when">${esc(t.date)}</div><div><h3>${esc(t.title)}</h3><p class="sub">${esc(t.subtitle)} · ${esc(t.venue)}</p></div></div>`)
     .join("");
-  const books = (teaching.books || [])
-    .map((b) => `<article class="book">
-      <a href="${src(b.cover, 0)}" target="_blank" rel="noopener"><img src="${src(b.cover, 0)}" alt="${esc(b.title)} ${T.bookCover}" loading="lazy"></a>
-      <div>
-        <p class="type">${T.book} · ${esc(b.year)}</p>
-        <h3>${esc(b.title)}</h3>
-        <p class="sub">${esc(b.authors)} · ${esc(b.publisher)}</p>
-      </div>
-    </article>`)
-    .join("");
   return `<section class="wrap section" id="teaching">
   ${sectionHead(T.teaching, "Teaching")}
-  ${books ? `<div class="books">${books}</div>` : ""}
   ${terms}
   <div class="split">
     <div><h3 class="minor">${T.talks}</h3><div class="rows">${talks}</div></div>
@@ -328,6 +317,24 @@ function nowSection() {
   return `<section class="wrap section" id="now">
   ${sectionHead(T.now, "Current work")}
   <div class="rows">${rows}</div>
+</section>`;
+}
+
+function booksSection() {
+  const books = teaching.books || [];
+  if (!books.length) return "";
+  return `<section class="wrap section" id="books">
+  ${sectionHead(T.books, "Books")}
+  <div class="books">${books
+    .map((b) => `<article class="book">
+      <img src="${src(b.cover, 0)}" alt="${esc(b.title)} ${T.bookCover}" loading="lazy">
+      <div>
+        <p class="type">${T.book} · ${esc(b.year)}</p>
+        <h3>${esc(b.title)}</h3>
+        <p class="sub">${esc(b.authors)} · ${esc(b.publisher)}</p>
+      </div>
+    </article>`)
+    .join("")}</div>
 </section>`;
 }
 
@@ -608,7 +615,7 @@ for (const lang of LANGS) {
   fs.mkdirSync(path.join(dir, "research"), { recursive: true });
 
   const pages = [];
-  const indexBody = [hero(), teachingSection(), nowSection(), researchSection(), gamesSection(), careerSection(), activitiesSection()].join("\n");
+  const indexBody = [hero(), teachingSection(), nowSection(), booksSection(), researchSection(), gamesSection(), careerSection(), activitiesSection()].join("\n");
   pages.push(["index.html", page({ title: site.title, description: site.description, depth: 0, body: indexBody })]);
   games.forEach((g, i) => pages.push([`games/${g.id}.html`, gamePage(g, i)]));
   research.forEach((r, i) => pages.push([`research/${r.id}.html`, researchPage(r, i)]));
