@@ -10,8 +10,14 @@
     "devDuration": "10개월",
     "team": 3,
     "engine": "Unity",
-    "platforms": ["Web (itch.io)"],
-    "contribution": { "dev": 100, "uiux": 50, "design": 80 },
+    "platforms": [
+      "Web (itch.io)"
+    ],
+    "contribution": {
+      "dev": 100,
+      "uiux": 50,
+      "design": 80
+    },
     "summary": "150종이 넘는 아이템이 서로 조합돼 특수 무기가 되고, 15종 이상의 특수방과 7개 보스로 매번 다른 판을 만드는 로그라이크입니다. PC 게임 '아이작'을 참고해 모바일 조작에 맞게 다시 설계했습니다.",
     "goal": "매 판 새로운 경험을 주되, 랜덤 맵·아이템·이벤트가 겹쳐 최악의 판이 나오지 않도록 하는 것",
     "work": [
@@ -21,12 +27,27 @@
     "lessons": [],
     "awards": [],
     "links": [
-      { "type": "web", "label": "itch.io", "url": "https://cozy0614.itch.io/galaxy-tale" },
-      { "type": "github", "label": "GitHub", "url": "https://github.com/smhotkdg/MeowMeowPunch" },
-      { "type": "youtube", "label": "YouTube", "url": "https://www.youtube.com/watch?v=OmEI3zAp2oE" }
+      {
+        "type": "web",
+        "label": "itch.io",
+        "url": "https://cozy0614.itch.io/galaxy-tale"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/MeowMeowPunch"
+      },
+      {
+        "type": "youtube",
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=OmEI3zAp2oE"
+      }
     ],
     "icon": "assets/img/projects/galaxy_tale_character_icon.png",
-    "media": ["assets/video/GalaxyTale/magicitem_1.gif", "assets/video/GalaxyTale/normal_1.gif"]
+    "media": [
+      "assets/video/GalaxyTale/magicitem_1.gif",
+      "assets/video/GalaxyTale/normal_1.gif"
+    ]
   },
   {
     "id": "tap-zombie",
@@ -39,8 +60,15 @@
     "devDuration": "2주",
     "team": 3,
     "engine": "Unity",
-    "platforms": ["Android", "iOS"],
-    "contribution": { "dev": 100, "uiux": 50, "design": 80 },
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "contribution": {
+      "dev": 100,
+      "uiux": 50,
+      "design": 80
+    },
     "summary": "이동·원거리 공격·근거리 공격 세 버튼으로 타일을 이동하며 좀비를 잡는 캐주얼 게임입니다. 낮은 확률로 나오는 무적·순간이동 아이템이 핵심입니다.",
     "goal": "강력한 랜덤 아이템이 재플레이에 주는 영향을 확인하는 실험",
     "work": [
@@ -51,15 +79,36 @@
       "특수 아이템을 얻은 유저가 다시 플레이하는 비율이 더 높다는 데이터를 확인",
       "개발 초기부터 데이터 수집과 분석을 설계해야 한다는 점을 배움"
     ],
-    "awards": ["google-iga-2022"],
+    "awards": [
+      "google-iga-2022"
+    ],
     "links": [
-      { "type": "googleplay", "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.hoitstudio.tapzombie" },
-      { "type": "appstore", "label": "App Store", "url": "https://apps.apple.com/kr/app/%ED%83%AD-%EC%A2%80%EB%B9%84/id6444820070" },
-      { "type": "github", "label": "GitHub", "url": "https://github.com/smhotkdg/TabZombie" },
-      { "type": "youtube", "label": "YouTube", "url": "https://youtube.com/shorts/YArSjMc605w" }
+      {
+        "type": "googleplay",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.hoitstudio.tapzombie"
+      },
+      {
+        "type": "appstore",
+        "label": "App Store",
+        "url": "https://apps.apple.com/kr/app/%ED%83%AD-%EC%A2%80%EB%B9%84/id6444820070"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/TabZombie"
+      },
+      {
+        "type": "youtube",
+        "label": "YouTube",
+        "url": "https://youtube.com/shorts/YArSjMc605w"
+      }
     ],
     "icon": "assets/img/projects/tabzombie.png",
-    "media": ["assets/video/tapzombie/tapzombie_1.gif", "assets/video/tapzombie/tapzombie_2.gif"]
+    "media": [
+      "assets/video/tapzombie/tapzombie_1.gif",
+      "assets/video/tapzombie/tapzombie_2.gif"
+    ]
   },
   {
     "id": "sea-of-death",
@@ -73,8 +122,17 @@
     "devDuration": "10개월",
     "team": 3,
     "engine": "Unity",
-    "platforms": ["Android", "iOS", "Steam", "China (TapTap)"],
-    "contribution": { "dev": 100, "uiux": 70, "design": 40 },
+    "platforms": [
+      "Android",
+      "iOS",
+      "Steam",
+      "China (TapTap)"
+    ],
+    "contribution": {
+      "dev": 100,
+      "uiux": 70,
+      "design": 40
+    },
     "summary": "기억을 잃은 주인공의 이야기와 방탈출 퍼즐을 결합한 스릴러 어드벤처입니다. 수십 개의 서로 다른 퍼즐과 7개의 멀티 엔딩이 있습니다.",
     "goal": "수익보다 팀이 정말 좋아하는 게임을 만드는 것",
     "work": [
@@ -86,17 +144,49 @@
       "수익 모델은 기획 단계부터 설계해야 하며, 스토리 장르는 광고 반발이 특히 큼",
       "퍼즐 난이도가 높아 스토리를 보기 전에 이탈하는 유저가 많았음"
     ],
-    "awards": ["bigs-2022", "bic-2022", "burning-beaver-2022", "pujia8-contract"],
+    "awards": [
+      "bigs-2022",
+      "bic-2022",
+      "burning-beaver-2022",
+      "pujia8-contract"
+    ],
     "links": [
-      { "type": "googleplay", "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.hoitstudio.styx" },
-      { "type": "appstore", "label": "App Store", "url": "https://apps.apple.com/kr/app/%EC%A3%BD%EC%9D%8C%EC%9D%98-%EB%B0%94%EB%8B%A4/id1602798571" },
-      { "type": "steam", "label": "Steam", "url": "https://store.steampowered.com/search/?developer=Hoit%20Studio" },
-      { "type": "taptap", "label": "TapTap", "url": "https://www.taptap.cn/app/297183" },
-      { "type": "github", "label": "GitHub", "url": "https://github.com/smhotkdg/Styx" },
-      { "type": "youtube", "label": "YouTube", "url": "https://www.youtube.com/watch?v=ZrUee8Hx-Bw" }
+      {
+        "type": "googleplay",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.hoitstudio.styx"
+      },
+      {
+        "type": "appstore",
+        "label": "App Store",
+        "url": "https://apps.apple.com/kr/app/%EC%A3%BD%EC%9D%8C%EC%9D%98-%EB%B0%94%EB%8B%A4/id1602798571"
+      },
+      {
+        "type": "steam",
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/2066430/"
+      },
+      {
+        "type": "taptap",
+        "label": "TapTap",
+        "url": "https://www.taptap.cn/app/297183"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/Styx"
+      },
+      {
+        "type": "youtube",
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=ZrUee8Hx-Bw"
+      }
     ],
     "icon": "assets/img/projects/styx.png",
-    "media": ["assets/video/styx/1.gif", "assets/video/styx/2.gif"]
+    "media": [
+      "assets/video/styx/1.gif",
+      "assets/video/styx/2.gif"
+    ]
   },
   {
     "id": "heroes-story",
@@ -109,8 +199,15 @@
     "devDuration": "5개월",
     "team": 3,
     "engine": "Unity",
-    "platforms": ["Android", "iOS"],
-    "contribution": { "dev": 100, "uiux": 50, "design": 50 },
+    "platforms": [
+      "Android",
+      "iOS"
+    ],
+    "contribution": {
+      "dev": 100,
+      "uiux": 50,
+      "design": 50
+    },
     "summary": "수십 종의 히어로를 모아 배치하고, 방치로 얻은 재료로 랜덤 옵션 아이템을 제작해 스테이지를 올라가는 게임입니다. 웹 게임 '탭 히어로'를 기반으로 시작했습니다.",
     "goal": "뽑은 히어로가 방치되지 않도록 원정대·던전·합성으로 모든 히어로에 쓰임을 주는 것",
     "work": [],
@@ -121,13 +218,32 @@
     ],
     "awards": [],
     "links": [
-      { "type": "googleplay", "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.hoitstudio.heroesstory" },
-      { "type": "appstore", "label": "App Store", "url": "https://apps.apple.com/kr/app/%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88-%EC%8A%A4%ED%86%A0%EB%A6%AC/id1544702806" },
-      { "type": "github", "label": "GitHub", "url": "https://github.com/smhotkdg/HeroesStory" },
-      { "type": "youtube", "label": "YouTube", "url": "https://www.youtube.com/watch?v=tc_kgNIOmvU" }
+      {
+        "type": "googleplay",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.hoitstudio.heroesstory"
+      },
+      {
+        "type": "appstore",
+        "label": "App Store",
+        "url": "https://apps.apple.com/kr/app/%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88-%EC%8A%A4%ED%86%A0%EB%A6%AC/id1544702806"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/HeroesStory"
+      },
+      {
+        "type": "youtube",
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=tc_kgNIOmvU"
+      }
     ],
     "icon": "assets/img/projects/heroesstory.png",
-    "media": ["assets/video/heroesstory/1.gif", "assets/video/heroesstory/2.gif"]
+    "media": [
+      "assets/video/heroesstory/1.gif",
+      "assets/video/heroesstory/2.gif"
+    ]
   },
   {
     "id": "reaper",
@@ -141,11 +257,19 @@
     "devDuration": "1개월",
     "team": 3,
     "engine": "Unity",
-    "platforms": ["iOS"],
-    "contribution": { "dev": 100, "uiux": 50, "design": 50 },
+    "platforms": [
+      "iOS"
+    ],
+    "contribution": {
+      "dev": 100,
+      "uiux": 50,
+      "design": 50
+    },
     "summary": "수백 가지 무기를 강화하며 무한 스테이지를 올라가는 방치형 RPG입니다. 환생 시스템 '재강림'으로 얻은 재화로 더 빠르게 성장합니다.",
     "goal": "끝없이 성장하는 감각",
-    "work": ["1개월 개발 후 출시, 이후 운영·업데이트"],
+    "work": [
+      "1개월 개발 후 출시, 이후 운영·업데이트"
+    ],
     "lessons": [
       "유튜버 플레이 영상으로 초반 유입과 수익이 컸음",
       "엔드 콘텐츠 도달이 빨라 급하게 업데이트하다 밸런스가 무너짐",
@@ -153,12 +277,27 @@
     ],
     "awards": [],
     "links": [
-      { "type": "appstore", "label": "App Store", "url": "https://apps.apple.com/us/app/reaper-soul-stealer/id1514068745" },
-      { "type": "github", "label": "GitHub", "url": "https://github.com/smhotkdg/Reaper" },
-      { "type": "youtube", "label": "YouTube", "url": "https://youtube.com/shorts/hGN68Pzm6Bg" }
+      {
+        "type": "appstore",
+        "label": "App Store",
+        "url": "https://apps.apple.com/us/app/reaper-soul-stealer/id1514068745"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/Reaper"
+      },
+      {
+        "type": "youtube",
+        "label": "YouTube",
+        "url": "https://youtube.com/shorts/hGN68Pzm6Bg"
+      }
     ],
     "icon": "assets/img/projects/reaper.png",
-    "media": ["assets/video/reaper/reaper.gif", "assets/video/reaper/reaper2.png"]
+    "media": [
+      "assets/video/reaper/reaper.gif",
+      "assets/video/reaper/reaper2.png"
+    ]
   },
   {
     "id": "swipe-drive",
@@ -171,20 +310,43 @@
     "devDuration": "2주",
     "team": 3,
     "engine": "Unity",
-    "platforms": ["iOS"],
-    "contribution": { "dev": 100, "uiux": 100, "design": 100 },
+    "platforms": [
+      "iOS"
+    ],
+    "contribution": {
+      "dev": 100,
+      "uiux": 100,
+      "design": 100
+    },
     "summary": "화면을 스와이프해 자동차 경로를 그리면 차가 그 길로 달려 장애물을 피해 목적지에 도착하는 퍼즐 게임입니다. 100개 이상의 스테이지가 있습니다.",
     "goal": null,
     "work": [],
-    "lessons": ["중국 퍼블리싱을 시도했으나 CPI와 수익 지표가 낮아 무산됨"],
+    "lessons": [
+      "중국 퍼블리싱을 시도했으나 CPI와 수익 지표가 낮아 무산됨"
+    ],
     "awards": [],
     "links": [
-      { "type": "appstore", "label": "App Store", "url": "https://apps.apple.com/us/app/swipedrive/id1507873127" },
-      { "type": "github", "label": "GitHub", "url": "https://github.com/smhotkdg/swipedrive" },
-      { "type": "youtube", "label": "YouTube", "url": "https://youtube.com/shorts/3SIpds8rqnQ" }
+      {
+        "type": "appstore",
+        "label": "App Store",
+        "url": "https://apps.apple.com/us/app/swipedrive/id1507873127"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/swipedrive"
+      },
+      {
+        "type": "youtube",
+        "label": "YouTube",
+        "url": "https://youtube.com/shorts/3SIpds8rqnQ"
+      }
     ],
     "icon": "assets/img/projects/swipedrive.png",
-    "media": ["assets/video/swipedrive/swipedrive1.gif", "assets/video/swipedrive/swipedrive2.gif"]
+    "media": [
+      "assets/video/swipedrive/swipedrive1.gif",
+      "assets/video/swipedrive/swipedrive2.gif"
+    ]
   },
   {
     "id": "merge-mine",
@@ -197,20 +359,41 @@
     "devDuration": "1개월",
     "team": 3,
     "engine": "Unity",
-    "platforms": ["Android"],
-    "contribution": { "dev": 100, "uiux": 40, "design": 100 },
+    "platforms": [
+      "Android"
+    ],
+    "contribution": {
+      "dev": 100,
+      "uiux": 40,
+      "design": 100
+    },
     "summary": "100종이 넘는 광부를 합성해 새 광부를 얻고, 광산에 배치해 골드를 버는 머지 게임입니다. 주기적으로 열리는 '골드러쉬'로 보상을 키웠습니다.",
     "goal": "이전 게임의 광부 리소스 100여 종을 머지 시스템으로 재활용",
     "work": [],
     "lessons": [],
     "awards": [],
     "links": [
-      { "type": "googleplay", "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.hoitstudio.mergemine" },
-      { "type": "github", "label": "GitHub", "url": "https://github.com/smhotkdg/MergeMine" },
-      { "type": "youtube", "label": "YouTube", "url": "https://youtube.com/shorts/BbAD0mnmKT0" }
+      {
+        "type": "googleplay",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.hoitstudio.mergemine"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/MergeMine"
+      },
+      {
+        "type": "youtube",
+        "label": "YouTube",
+        "url": "https://youtube.com/shorts/BbAD0mnmKT0"
+      }
     ],
     "icon": "assets/img/projects/mergemine.png",
-    "media": ["assets/video/mergemine/1.gif", "assets/video/mergemine/2.gif"]
+    "media": [
+      "assets/video/mergemine/1.gif",
+      "assets/video/mergemine/2.gif"
+    ]
   },
   {
     "id": "mr-mine",
@@ -223,19 +406,40 @@
     "devDuration": "3개월",
     "team": 3,
     "engine": "Unity",
-    "platforms": ["Android"],
-    "contribution": { "dev": 100, "uiux": 40, "design": 35 },
+    "platforms": [
+      "Android"
+    ],
+    "contribution": {
+      "dev": 100,
+      "uiux": 40,
+      "design": 35
+    },
     "summary": "첫 작품 '디그덕'을 다시 설계한 광산 경영 타이쿤입니다. 일정 시간마다 등장하는 6명의 랜덤 광부 중에서 고용하고, 화재·파업 같은 이벤트를 처리하며 지구 끝까지 파 내려갑니다.",
     "goal": "실패한 첫 게임을 재구성해 다시 도전",
-    "work": ["창업진흥원 재도전성공패키지 선정 과제로 개발"],
+    "work": [
+      "창업진흥원 재도전성공패키지 선정 과제로 개발"
+    ],
     "lessons": [],
-    "awards": ["restart-package"],
+    "awards": [
+      "restart-package"
+    ],
     "links": [
-      { "type": "github", "label": "GitHub", "url": "https://github.com/smhotkdg/mrmine" },
-      { "type": "youtube", "label": "YouTube", "url": "https://youtube.com/shorts/twQXCsiTXCs" }
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/mrmine"
+      },
+      {
+        "type": "youtube",
+        "label": "YouTube",
+        "url": "https://youtube.com/shorts/twQXCsiTXCs"
+      }
     ],
     "icon": "assets/img/projects/mrmine.png",
-    "media": ["assets/video/mrmine/mrmine.gif", "assets/video/mrmine/mrmine2.gif"]
+    "media": [
+      "assets/video/mrmine/mrmine.gif",
+      "assets/video/mrmine/mrmine2.gif"
+    ]
   },
   {
     "id": "hoithoit-jump",
@@ -248,20 +452,41 @@
     "devDuration": "2주",
     "team": 3,
     "engine": "Unity",
-    "platforms": ["Android"],
-    "contribution": { "dev": 100, "uiux": 40, "design": 30 },
+    "platforms": [
+      "Android"
+    ],
+    "contribution": {
+      "dev": 100,
+      "uiux": 40,
+      "design": 30
+    },
     "summary": "한 번 터치하면 점프하고, 공중에서 한 번 더 터치하면 수직으로 떨어지며 한 칸씩 올라가는 게임입니다. 10점 내기도 어려운 하드코어 난이도로 설계했습니다.",
     "goal": null,
     "work": [],
     "lessons": [],
     "awards": [],
     "links": [
-      { "type": "googleplay", "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.hoitstudio.hoithoitjump" },
-      { "type": "github", "label": "GitHub", "url": "https://github.com/smhotkdg/HoitHoitJump" },
-      { "type": "youtube", "label": "YouTube", "url": "https://youtube.com/shorts/SR6UKQEIpGg" }
+      {
+        "type": "googleplay",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.hoitstudio.hoithoitjump"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/HoitHoitJump"
+      },
+      {
+        "type": "youtube",
+        "label": "YouTube",
+        "url": "https://youtube.com/shorts/SR6UKQEIpGg"
+      }
     ],
     "icon": "assets/img/projects/jump.png",
-    "media": ["assets/video/jump/jump1.gif", "assets/video/jump/jump2.gif"]
+    "media": [
+      "assets/video/jump/jump1.gif",
+      "assets/video/jump/jump2.gif"
+    ]
   },
   {
     "id": "hoithoit-hop",
@@ -275,18 +500,32 @@
     "team": 3,
     "engine": "Unity",
     "platforms": [],
-    "contribution": { "dev": 100, "uiux": 40, "design": 30 },
+    "contribution": {
+      "dev": 100,
+      "uiux": 40,
+      "design": 30
+    },
     "summary": "Flappy Bird에서 착안해 화면 절반을 물로 바꾸고, 물과 하늘에서 중력을 다르게 적용한 원터치 게임입니다.",
     "goal": null,
     "work": [],
     "lessons": [],
     "awards": [],
     "links": [
-      { "type": "github", "label": "GitHub", "url": "https://github.com/smhotkdg/HoitHoitHop" },
-      { "type": "youtube", "label": "YouTube", "url": "https://youtube.com/shorts/vA-t3Ky9ZRw" }
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/HoitHoitHop"
+      },
+      {
+        "type": "youtube",
+        "label": "YouTube",
+        "url": "https://youtube.com/shorts/vA-t3Ky9ZRw"
+      }
     ],
     "icon": "assets/img/projects/hop.png",
-    "media": ["assets/video/Hop/Hop.gif"]
+    "media": [
+      "assets/video/Hop/Hop.gif"
+    ]
   },
   {
     "id": "zombie-war",
@@ -300,18 +539,33 @@
     "team": 3,
     "engine": "Unity",
     "platforms": [],
-    "contribution": { "dev": 100, "uiux": 40, "design": 30 },
+    "contribution": {
+      "dev": 100,
+      "uiux": 40,
+      "design": 30
+    },
     "summary": "백신 생산량과 배달원 수의 균형을 맞춰 수익을 내고, 전 세계에 백신을 공급하는 타이쿤입니다. 한쪽만 늘리면 오히려 수익이 줄도록 설계했습니다.",
     "goal": null,
     "work": [],
     "lessons": [],
     "awards": [],
     "links": [
-      { "type": "github", "label": "GitHub", "url": "https://github.com/smhotkdg/zombiewar" },
-      { "type": "youtube", "label": "YouTube", "url": "https://youtu.be/z3gZxYEoiew" }
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/zombiewar"
+      },
+      {
+        "type": "youtube",
+        "label": "YouTube",
+        "url": "https://youtu.be/z3gZxYEoiew"
+      }
     ],
     "icon": "assets/img/projects/zombiewar.png",
-    "media": ["assets/video/zombiewar/zombiewar1.gif", "assets/video/zombiewar/zombiewar2.gif"]
+    "media": [
+      "assets/video/zombiewar/zombiewar1.gif",
+      "assets/video/zombiewar/zombiewar2.gif"
+    ]
   },
   {
     "id": "digduk",
@@ -325,7 +579,11 @@
     "team": 3,
     "engine": "Unity",
     "platforms": [],
-    "contribution": { "dev": 100, "uiux": 60, "design": 50 },
+    "contribution": {
+      "dev": 100,
+      "uiux": 60,
+      "design": 50
+    },
     "summary": "전 세계 500만 뷰 이상의 웹게임 Mr.Mine을 원작자와 협의해 모바일로 재창조한 첫 작품입니다. 100종이 넘는 광부의 배치 시너지와 드릴 업그레이드로 더 깊이 파 내려갑니다.",
     "goal": "모바일에서 관리하기 쉬운 광산 경영",
     "work": [
@@ -335,10 +593,21 @@
     "lessons": [],
     "awards": [],
     "links": [
-      { "type": "github", "label": "GitHub", "url": "https://github.com/smhotkdg/DigDuk" },
-      { "type": "youtube", "label": "YouTube", "url": "https://youtu.be/inc_IpB1S1Q" }
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/DigDuk"
+      },
+      {
+        "type": "youtube",
+        "label": "YouTube",
+        "url": "https://youtu.be/inc_IpB1S1Q"
+      }
     ],
     "icon": "assets/img/projects/digduk.png",
-    "media": ["assets/video/digduk/digduk1.gif", "assets/video/digduk/digduk2.gif"]
+    "media": [
+      "assets/video/digduk/digduk1.gif",
+      "assets/video/digduk/digduk2.gif"
+    ]
   }
 ]
