@@ -15,6 +15,20 @@
     videos.forEach((v) => { v.pause(); io.observe(v); });
   }
 
+  // 서비스 종료된 스토어 링크: 안내 팝업
+  const dlg = document.getElementById("store-notice");
+  if (dlg && typeof dlg.showModal === "function") {
+    const msg = dlg.querySelector("p");
+    document.querySelectorAll("a.store-off").forEach((a) => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        msg.textContent = msg.dataset.template.replace("{store}", a.dataset.store);
+        dlg.showModal();
+      });
+    });
+    dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
+  }
+
   // 상단 메뉴: 현재 보고 있는 섹션 표시
   const links = [...document.querySelectorAll('.topnav a[href^="#"]')];
   const sections = links.map((a) => document.querySelector(a.getAttribute("href"))).filter(Boolean);

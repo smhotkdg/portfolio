@@ -242,6 +242,18 @@ p { margin: 0; }
 .pager a:hover { color: var(--primary); }
 .pager .next { text-align: right; }
 
+/* store notice */
+.links a.store-off { color: var(--muted); }
+.links a.store-off::after { content: ""; }
+.notice { border: 1px solid var(--line); border-radius: var(--r-md); background: var(--surface); color: var(--fg); padding: var(--s-6); width: min(420px, calc(100vw - 32px)); }
+.notice::backdrop { background: rgb(0 0 0 / 0.45); }
+.notice h2 { font-size: var(--t-lg); margin: 0 0 var(--s-3); }
+.notice p { font-size: var(--t-md); }
+.notice form { margin: var(--s-5) 0 0; display: flex; justify-content: flex-end; }
+.notice button { font: inherit; font-size: var(--t-sm); font-weight: 600; background: var(--primary); color: var(--bg); border: 0; border-radius: var(--r-sm); padding: var(--s-2) var(--s-5); cursor: pointer; }
+/* 스크립트가 꺼진 경우: #store-notice 로 이동하면 안내문 표시 */
+.notice:target { display: block; position: fixed; inset: 50% auto auto 50%; transform: translate(-50%, -50%); z-index: 40; }
+
 /* footer */
 .foot { border-top: 1px solid var(--line); padding-block: var(--s-6) calc(var(--s-6) + env(safe-area-inset-bottom, 0px)); font-size: var(--t-sm); color: var(--muted); }
 .foot .wrap { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-5); }

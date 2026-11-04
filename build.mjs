@@ -35,9 +35,26 @@ function ext(url, label, cls = "") {
   return `<a class="${cls}" href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a>`;
 }
 
+const notice = site.storeNotice?.enabled ? site.storeNotice : null;
+const isClosedStore = (l) => notice && notice.stores.includes(l.type);
 function links(list) {
   if (!list?.length) return "";
-  return `<ul class="links">${list.map((l) => `<li>${ext(l.url, l.label)}</li>`).join("")}</ul>`;
+  return `<ul class="links">${list
+    .map((l) =>
+      isClosedStore(l)
+        ? `<li><a class="store-off" href="#store-notice" data-store="${esc(l.label)}">${esc(l.label)}</a></li>`
+        : `<li>${ext(l.url, l.label)}</li>`
+    )
+    .join("")}</ul>`;
+}
+
+function noticeDialog() {
+  if (!notice) return "";
+  return `<dialog id="store-notice" class="notice" aria-labelledby="store-notice-title">
+  <h2 id="store-notice-title">${esc(notice.title)}</h2>
+  <p data-template="${esc(notice.body)}">${esc(notice.body.replace("{store}", "스토어"))}</p>
+  <form method="dialog"><button type="submit" autofocus>${esc(notice.button)}</button></form>
+</dialog>`;
 }
 
 function chips(list, cls = "") {
@@ -128,6 +145,7 @@ ${body}
     <a href="${esc(site.repo)}" target="_blank" rel="noopener">GitHub에서 보기</a>
   </div>
 </footer>
+${noticeDialog()}
 <script src="${up(depth)}main.js" defer></script>
 </body>
 </html>
