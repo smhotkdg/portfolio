@@ -6,6 +6,7 @@
 
 ```
 content/    사이트 내용 (JSON) — 업데이트는 여기만 고치면 됩니다
+content/en/ 영어 페이지용 번역 문장 (/en/)
 assets/     이미지, 원본 GIF, 변환 MP4, 연구 자료 그림
 src/        스타일(styles.css), 스크립트(main.js)
 build.mjs   content → _site/ 정적 HTML 생성 (외부 패키지 없음)

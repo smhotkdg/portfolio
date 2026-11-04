@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sunmoon-ms",
+    "school": "Sun Moon University, Graduate School",
+    "degree": "M.S.",
+    "major": "Image Processing"
+  },
+  {
+    "id": "sunmoon-bs",
+    "school": "Sun Moon University",
+    "degree": "B.S.",
+    "major": "Computer Engineering"
+  }
+]

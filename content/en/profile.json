@@ -1,0 +1,24 @@
+{
+  "name": "Seunghun Yang",
+  "nameEn": "양승훈",
+  "headline": "Embedded AI · Computer Vision · Game Development",
+  "position": "Professor, Advanced Industry Talent Bootcamp, Halla University",
+  "summary": [
+    "I started in graduate research on detecting roads, vehicles and pedestrians in front-facing car cameras, then worked as a road image-processing engineer.",
+    "I co-founded the indie studio Hoit Studio, where as CTO I built 12 mobile games, and later worked at PlayHard as a Growth Programmer on game development, data-driven monetization and live updates.",
+    "Today I teach embedded AI and image processing at a university, and focus on explaining AI that runs on small boards so that complete beginners can follow along."
+  ],
+  "careerTotal": "8 yrs 10 mos",
+  "studio": {
+    "operations": [
+      {
+        "title": "Data & performance analysis",
+        "desc": "Analyzed player behavior and ad campaign performance with Firebase and Google Analytics, and fed the results into update and monetization decisions."
+      },
+      {
+        "title": "User acquisition & ad creatives",
+        "desc": "Ran user acquisition campaigns on Google Ads, Facebook Ads and Unity Ads, analyzed performance by creative, and produced the ad creatives myself."
+      }
+    ]
+  }
+}

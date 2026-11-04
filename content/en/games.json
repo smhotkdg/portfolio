@@ -1,0 +1,210 @@
+[
+  {
+    "id": "galaxy-tale",
+    "title": "Galaxy Tale",
+    "subtitle": "Cat roguelike RPG",
+    "genre": "Roguelike",
+    "devDuration": "10 months",
+    "summary": "A roguelike where 150+ items combine into special weapons, and 15+ special rooms and 7 bosses make every run different. Inspired by the PC game The Binding of Isaac, redesigned for mobile controls.",
+    "story": [
+      "Galaxy Tale started from one goal: every run should feel different. The map layout, items and events are all random, and more than 150 items combine into special weapons. Picking up the same item can lead to a completely different run depending on what you already carry.",
+      "More randomness also means more unlucky runs. A run where only useless items drop before a boss, or where special rooms appear back to back with no way to heal, makes players feel the game was unfair rather than that they played badly. So I added correction logic at the map and item generation stage that filters out the worst combinations. It looks random, but behind the scenes it keeps every run playable to the end.",
+      "We took inspiration from The Binding of Isaac but did not port it as is. Moving and shooting with two fingers at once is hard on a phone, so we simplified the controls and redesigned room sizes, enemy placement and item effects from scratch to match.",
+      "On a team of one programmer, one artist and one designer, I handled programming along with game design and UX. Most of the 10 months went into playing the random systems and tuning them again. It taught me more than anything that fun randomness and frustrating randomness are not the same thing."
+    ],
+    "work": [
+      "Programming, game design and UX (team: 1 programmer · 1 artist · 1 designer)",
+      "Correction logic that prevents worst-case item and map combinations"
+    ]
+  },
+  {
+    "id": "tap-zombie",
+    "title": "Tap Zombie!",
+    "subtitle": "Three-button casual arcade action",
+    "genre": "Casual action",
+    "devDuration": "2 weeks",
+    "summary": "A casual game where you move across tiles and fight zombies with three buttons. Rare invincibility and teleport items are the core of the design.",
+    "story": [
+      "Tap Zombie! was an experiment to test whether powerful rewards make players come back. The controls are just three buttons: move, ranged attack and melee attack. In return, item boxes occasionally drop an instant invincibility item or an item that warps you far away.",
+      "We tuned the odds so players would see these powerful items often early on, and ran several rounds of playtests to observe how random items changed the flow of a run. Development took only two weeks, but with clear roles across the three of us we shipped a clean build.",
+      "Around the same time we were selected for Google Indie Games Accelerator 2022, and applied the mentors' feedback directly to UX, marketing and user acquisition. It was when I felt most clearly that making a game and getting it to players are separate skills.",
+      "Commercially it failed, because revenue was low relative to ad spend. But the data showed that players who got a special item replayed more often than those who did not. Since this project I decide what to measure at the very start of development."
+    ],
+    "work": [
+      "Applied Google Indie Games Accelerator 2022 mentoring feedback to UX, marketing and user acquisition"
+    ],
+    "lessons": [
+      "Commercially unsuccessful: revenue was low relative to ad spend",
+      "Data showed players who got special items replayed more often",
+      "Learned to design data collection and analysis from the start of development"
+    ]
+  },
+  {
+    "id": "sea-of-death",
+    "title": "Sea of Death",
+    "titleEn": "죽음의 바다 · Styx",
+    "subtitle": "Escape-room puzzle mystery adventure",
+    "genre": "Puzzle adventure",
+    "devDuration": "10 months",
+    "summary": "A thriller adventure that combines the story of an amnesiac hero with escape-room puzzles. It has dozens of distinct puzzles and 7 endings.",
+    "story": [
+      "Sea of Death began with a question: are we really making games the right way? We had tried several genres with disappointing player response and revenue, so this time we set revenue aside and made the game our team truly loved.",
+      "We combined the story of a hero searching for lost memories with escape-room puzzles. Every one of the dozens of puzzles was built fresh so none repeat, and choices branch into 7 endings. Most of our time went into pacing the puzzles and the story so players would reach an ending without burning out.",
+      "The response was positive. The game was shown at indie events such as BIC and Burning Beaver, received an honorable mention at the Bangguseok Indie Game Show, and led to a China publishing deal and a Steam release. More than any number, it gave us the satisfaction of finishing the game we loved.",
+      "There were clear regrets too. When reviews turned good we added ad-based monetization late, story-game players pushed back hard, and the rating dropped. We reverted, but a lost rating is hard to win back. Puzzles that were too hard made many players leave before reaching the story, and the Steam version lacked a UI suited to PC. Those became lessons for the next game."
+    ],
+    "work": [
+      "Simultaneous mobile and Steam release; China publishing deal",
+      "Shown at BIC 2022 and Burning Beaver 2022"
+    ],
+    "lessons": [
+      "Adding ads after launch dropped the rating, and it stayed hard to recover even after reverting",
+      "Monetization must be designed from the start; story-game players react strongly to ads",
+      "Puzzle difficulty made many players leave before they saw the story"
+    ]
+  },
+  {
+    "id": "heroes-story",
+    "title": "Heroes Story",
+    "subtitle": "Collectible idle RPG",
+    "genre": "Idle RPG",
+    "devDuration": "5 months",
+    "summary": "Collect and place dozens of heroes, craft items with random stats from idle resources, and climb stages. Started from the web game Tap Heroes.",
+    "story": [
+      "Heroes Story is a collectible idle RPG that started from the web game Tap Heroes. You collect dozens of heroes, each with a unique ability, place them, and craft items from idle resources to clear higher stages. Crafted items roll random stats so each hero can find different combinations.",
+      "A common problem in collectible games is that most heroes from gacha and daily rewards end up unused. To prevent that, we built expeditions, dungeons and fusion so every hero has a use.",
+      "After launch the biggest problem was a boring stretch early in the game. We made the tutorial friendlier and rebalanced, but the root cause was pacing. Based on a previous idle game where players cleared too fast, we had deliberately slowed things down, and single-target attacks plus slow movement removed the thrill of many heroes sweeping a stage at once. A publishing deal with a Japanese company fell through because of it.",
+      "The dice dungeon, where you roll dice manually to beat a boss, also landed differently than intended. To idle-game players, hands-on content felt like homework, and the reaction only changed after we added auto-play. It taught me to understand the rhythm a genre's players expect before anything else."
+    ],
+    "lessons": [
+      "Lack of pacing created an early slump, and a Japanese publishing deal fell through because of it",
+      "The manual dice dungeon felt like a chore to idle players; reactions changed after auto-play",
+      "In idle games, dungeon structure has to match what genre players expect"
+    ]
+  },
+  {
+    "id": "reaper",
+    "title": "Reaper: Soul Stealer",
+    "titleEn": "리퍼 영혼약탈자",
+    "subtitle": "Idle RPG",
+    "genre": "Idle RPG",
+    "devDuration": "1 month",
+    "summary": "An idle RPG where you upgrade hundreds of weapons and climb endless stages. The rebirth system, Re-Advent, lets you grow faster each cycle.",
+    "story": [
+      "Reaper: Soul Stealer is an idle RPG where you upgrade hundreds of weapons and climb an endless tower of stages. Its core is a rebirth system called Re-Advent: the currency earned on rebirth makes the next run faster. Dungeons provide upgrade currency, and once every weapon is upgraded a special weapon appears, keeping the sense of growth going.",
+      "Development took one month. The goal was to build a solid core loop in a short time and ship, and right after launch YouTubers' gameplay videos brought in far more players and revenue than we expected.",
+      "The trouble came next. Players reached the endgame much faster than we planned, and pushing out updates we were not ready for broke the balance. With no fixed update direction, our plans kept shifting with player reactions, and in the end the game did not last.",
+      "Listening to players matters, but I learned that a game wobbles when a team follows reactions without its own direction. In later projects I planned several months of updates before launch."
+    ],
+    "work": [
+      "Shipped after one month of development, then ran live operations and updates"
+    ],
+    "lessons": [
+      "YouTuber gameplay videos drove strong early installs and revenue",
+      "Players reached the endgame fast, and rushed updates broke the balance",
+      "Listen to players, but keep a clear update direction of your own"
+    ]
+  },
+  {
+    "id": "swipe-drive",
+    "subtitle": "Swipe-to-draw path puzzle",
+    "genre": "Casual puzzle",
+    "devDuration": "2 weeks",
+    "summary": "Swipe to draw a path, and the car drives along it, dodging obstacles to reach the goal. More than 100 stages.",
+    "story": [
+      "Swipe Drive grew from a one-line idea: draw a road with your finger and the car drives it. You swipe a path in advance, the car follows it, and you clear the stage by reaching the goal without hitting obstacles.",
+      "Because the controls are so simple, any gap between the drawn line and the car's motion turns straight into frustration. I spent most of the effort smoothing shaky swipe traces into clean paths and making the car follow them naturally, then built more than 100 stages on top to shape the difficulty curve.",
+      "I handled design, UI/UX and development myself and finished it in two weeks, then pursued a deal with a Chinese publisher. CPI and revenue metrics fell short, and the deal did not happen. It showed me in numbers that a fun idea and cheap user acquisition are different problems."
+    ],
+    "lessons": [
+      "A China publishing deal fell through because CPI and revenue metrics were low"
+    ]
+  },
+  {
+    "id": "merge-mine",
+    "title": "Merge Mine: Gold Rush",
+    "subtitle": "Miner merge game",
+    "genre": "Casual merge",
+    "devDuration": "1 month",
+    "summary": "Merge 100+ miners into new ones and place them in the mine to earn gold. A periodic Gold Rush boosts rewards.",
+    "story": [
+      "Merge Mine: Gold Rush started from an idea to give new life to the 100+ miner assets we had made for our earlier mining games. Those existing assets are why we could build it in just one month.",
+      "We added a merge system where two identical miners combine into a higher-tier miner, and merged miners placed in the mine earn gold. Buying, merging and placing miners with that gold forms the core loop, and a periodic Gold Rush greatly boosts rewards to give players a reason to come back.",
+      "I led the game design on this project, and confirmed that reused assets can still deliver a different kind of fun. For a small team, I learned it pays to think about how assets can be reused while you build them."
+    ],
+    "goal": "Reuse 100+ miner assets from earlier games through a merge system"
+  },
+  {
+    "id": "mr-mine",
+    "subtitle": "Mine management tycoon",
+    "genre": "Tycoon",
+    "devDuration": "3 months",
+    "summary": "A redesign of our first game, DigDuk. Hire from 6 random miners that appear periodically, handle fires and strikes, and dig to the end of the Earth.",
+    "story": [
+      "Mr.Mine is a mine management tycoon that redesigns our first game, DigDuk. After DigDuk ended with disappointing results, being selected for KISED's Restart Success Package gave us the chance to rebuild that failed game.",
+      "The biggest change was hiring. Every so often six miners with different abilities appear at random, and the player picks one or refreshes to look for a better one. We wanted a choice to make each time, rather than just saving money for upgrades.",
+      "Events such as fires and strikes break out in the mine, and the player has to respond directly. The final goal is to upgrade the drill and dig all the way to the end of the Earth, with pricier minerals the deeper you go.",
+      "Making the same game twice showed me that problems invisible the first time become much clearer the second time. A failed project, documented well, becomes the best material for the next attempt."
+    ],
+    "work": [
+      "Developed as a project selected for KISED's Restart Success Package"
+    ],
+    "goal": "Rebuild our first, unsuccessful game and try again"
+  },
+  {
+    "id": "hoithoit-jump",
+    "subtitle": "One-touch hyper-casual",
+    "genre": "Hyper-casual",
+    "devDuration": "2 weeks",
+    "summary": "Tap to jump; tap again in mid-air to drop straight down and climb one step at a time. Deliberately hardcore: even 10 points is hard.",
+    "story": [
+      "HoitHoitJump is a one-button hyper-casual game. Tap once and the character jumps; tap again in mid-air and it pauses briefly, then drops straight down. Timing that drop to climb one step at a time is the whole game.",
+      "We made it deliberately hardcore, so even passing 10 points is hard. In return, we kept the restart loop short so failing never stings for long, and added an item that freezes the platforms briefly to give a satisfying burst of climbing amid the difficulty.",
+      "The simpler the controls, the more a single number like jump height, hang time or fall speed decides how it feels. Most of the two weeks went into changing those numbers and playing again."
+    ]
+  },
+  {
+    "id": "hoithoit-hop",
+    "subtitle": "One-touch game where water and sky have different gravity",
+    "genre": "Hyper-casual",
+    "devDuration": "2 weeks",
+    "summary": "Inspired by Flappy Bird: half the screen is water, and gravity works differently in water and sky.",
+    "story": [
+      "HoitHoitHop is a one-touch game inspired by Flappy Bird. Where Flappy Bird has you dodge obstacles in the sky, HoitHoitHop fills half the screen with water and gives water and sky different gravity.",
+      "The same tap shoots you up in the sky but floats you slowly upward underwater, so the player has to stay aware of where the character is at every moment. I tuned the physics many times so the two zones and the transition at the waterline feel natural.",
+      "It was a small game made in two weeks, but it showed me that twisting a single familiar rule creates a whole new kind of tension. I still think back to it when coming up with hyper-casual ideas."
+    ]
+  },
+  {
+    "id": "zombie-war",
+    "title": "Zombie War: Vaccine Master",
+    "subtitle": "Vaccine factory tycoon",
+    "genre": "Tycoon",
+    "devDuration": "2 months",
+    "summary": "A tycoon where you balance vaccine production and delivery staff to earn money and supply the world. Raising only one side actually lowers income.",
+    "story": [
+      "Zombie War: Vaccine Master is a tycoon game about producing vaccines and delivering them worldwide. It was the first game we made after founding Hoit Studio, and we wanted it to feel different from typical idle games.",
+      "The core is the balance between production and delivery. Make too many vaccines and deliveries cannot keep up, leaving surplus; hire too many couriers and there is not enough to deliver, so income drops. The two numbers are linked so that raising only one never leads to growth.",
+      "Because upgrades do not simply make you stronger, the fun is in judging for yourself where the bottleneck is. Designing an economy balance like this for the first time became the foundation for my later tycoon and idle work."
+    ]
+  },
+  {
+    "id": "digduk",
+    "title": "DigDuk: Mine Tycoon",
+    "subtitle": "Official mobile version of the web game Mr.Mine",
+    "genre": "Tycoon",
+    "devDuration": "7 months",
+    "summary": "Our first game: the web game Mr.Mine (5M+ views worldwide), remade for mobile with the creator's agreement. Synergies among 100+ miners and drill upgrades take you deeper.",
+    "story": [
+      "DigDuk is our first mobile game, which we began before founding the studio. With the original creator's agreement, we remade the web game Mr.Mine, viewed more than 5 million times worldwide, as its official mobile version.",
+      "We kept the web game's basic structure but rebuilt much of it for mobile. We added more than 100 miners, with synergies that raise mining chance, drill power and gold income when certain miners work together. Drills can also be swapped to dig deeper.",
+      "On the web a deep shaft fits on one screen, but on a phone it is hard to manage from top to bottom. So we split the shaft into several maps, with robots generating income automatically on the maps you have passed. Different events by depth and map give players moments to step in directly.",
+      "Over seven months, finishing a game for the first time taught me hands-on what it takes to go from design to launch. It was also the starting point for the later redesign, Mr.Mine."
+    ],
+    "work": [
+      "Split the deep shaft into several maps, with robots earning automatically on earlier maps",
+      "Designed events by depth and map that call for direct player action"
+    ],
+    "goal": "Mine management that is easy to handle on a phone"
+  }
+]

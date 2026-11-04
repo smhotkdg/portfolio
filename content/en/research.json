@@ -1,0 +1,144 @@
+[
+  {
+    "id": "pavement-crack-ai",
+    "title": "AI Pavement Crack Analysis",
+    "org": "Project delivered by Hoit Studio",
+    "sponsor": "Rodtec",
+    "role": "Sole developer",
+    "summary": "Developed a deep learning algorithm that detects pavement cracks at the pixel level and measures each crack's direction (horizontal or vertical), length and width.",
+    "highlights": [
+      "Built a new training set of Korean road cracks and trained DeepCrack (based on SegNet)",
+      "Added crack width to the ground truth so the model detects width as well",
+      "Trained horizontal and vertical cracks separately and computed length and width per crack, assuming 1 px = 1 mm"
+    ],
+    "metrics": [
+      {
+        "label": "Training / inference resolution"
+      },
+      {
+        "label": "Training hardware"
+      }
+    ]
+  },
+  {
+    "id": "etri-cuda-acceleration",
+    "title": "Integrated, Accelerated Camera-Based Vehicle Vision Signal Processing",
+    "org": "Sun Moon University Graduate School",
+    "sponsor": "Electronics and Telecommunications Research Institute (ETRI)",
+    "role": "Team lead",
+    "summary": "Parallelized a road detection algorithm with NVIDIA CUDA and achieved real-time processing on an embedded board (Jetson TK1).",
+    "highlights": [
+      "Profiled the compute bottlenecks of CPU-based road detection and moved them to CUDA parallel processing",
+      "Measured and validated on a Jetson TK1 board"
+    ],
+    "metrics": [
+      {
+        "label": "Average processing speed, CPU vs GPU"
+      },
+      {
+        "value": "≈ 9×",
+        "label": "Speed-up"
+      }
+    ]
+  },
+  {
+    "id": "license-plate",
+    "title": "Real-Time License Plate Detection",
+    "org": "Sun Moon University Graduate School",
+    "sponsor": "Industry project",
+    "role": "Recognition algorithm research and development (60% contribution)",
+    "summary": "Developed an algorithm that detects and reads the plates of vehicles moving under 30 km/h in real time.",
+    "highlights": [
+      "Classified plates into types by their visual features, then recognized each type separately",
+      "Works on both old and new Korean plate formats"
+    ]
+  },
+  {
+    "id": "etri-road-detection",
+    "title": "Real-Time Road Region Extraction for Front-Facing Vehicle Cameras",
+    "org": "Sun Moon University Graduate School",
+    "sponsor": "Electronics and Telecommunications Research Institute (ETRI)",
+    "role": "Algorithm development (70% contribution)",
+    "summary": "Researched an algorithm that extracts the road region in real time on highways, national roads and busy city streets. Published at ISVC'15.",
+    "highlights": [
+      "Detected road candidate regions using the S channel of the HSV color space",
+      "Refined the road boundary by correcting false detections with edge information"
+    ],
+    "links": [
+      {
+        "label": "GitHub"
+      },
+      {
+        "label": "YouTube"
+      },
+      {
+        "label": "Paper (ISVC'15)"
+      }
+    ]
+  },
+  {
+    "id": "etri-blindspot-pedestrian",
+    "title": "Effective Multi-Object Segmentation and Tracking with Video Signal Processing",
+    "subtitle": "Blind-spot vehicle detection · Front pedestrian detection",
+    "org": "Sun Moon University Graduate School",
+    "sponsor": "Electronics and Telecommunications Research Institute (ETRI)",
+    "role": "Sole developer",
+    "summary": "Researched algorithms that detect vehicles in the driver's blind spot and pedestrians ahead, and warn of danger.",
+    "highlights": [
+      "Detected blind-spot vehicles with learned vehicle features and corrected false candidate regions",
+      "Proposed a pedestrian detector that addresses HOG's limits with a wavelet transform"
+    ]
+  },
+  {
+    "id": "vlc-h264",
+    "title": "Short-Range Visible Light Communication Convergence Technology (Year 3)",
+    "org": "Sun Moon University Graduate School",
+    "sponsor": "Chungcheong Leading Industry Office",
+    "role": "H.264/AVC encoder development (50% contribution)",
+    "summary": "Analyzed the visible light communication standard (IEEE 802.15.7) and built an H.264/AVC player for video transmission.",
+    "highlights": [
+      "Analyzed the TX/RX physical layers, LED interface, positioning and identification structures of IEEE 802.15.7",
+      "Developed an H.264/AVC-based encoder and an MPEG-4-based decoder",
+      "Real-time Full HD stream transmission"
+    ]
+  },
+  {
+    "id": "davinci-code",
+    "subtitle": "Hiding text inside images",
+    "org": "Sun Moon University",
+    "duration": "2 weeks",
+    "role": "Development",
+    "summary": "Converts text to binary, hides it in the least significant bits of each pixel's R, G and B values, and restores it. The output looks identical to the original and has the same file size."
+  },
+  {
+    "id": "cctv-face-dna",
+    "title": "Smarter CCTV with Motion Detection and Face DNA",
+    "org": "Sun Moon University",
+    "duration": "3 months",
+    "role": "Face recognition and face-DNA algorithms (60% contribution)",
+    "summary": "A CCTV program that records and alerts the user's phone only when motion is detected and an unregistered face appears, reducing wasteful recording and slow after-the-fact response.",
+    "highlights": [
+      "Pipeline: motion detection → face detection → face data (DNA) comparison",
+      "Unregistered faces trigger video and photo upload to the web and phone, plus an alert"
+    ]
+  },
+  {
+    "id": "ads-system",
+    "title": "Augmented Driving System (ADS) for Richer Driver Information",
+    "org": "Sun Moon University",
+    "duration": "3 months",
+    "role": "Vehicle detection, gesture recognition and lane detection (50% contribution)",
+    "summary": "A driver-assistance interface that uses a single camera to detect the distance to the car ahead, lanes and traffic signs, shows them on a HUD, and is controlled by voice and gestures.",
+    "highlights": [
+      "Vehicle detection and distance, license plate detection, lane departure warning, traffic sign recognition",
+      "HUD interface: call it by voice, choose menus by gesture",
+      "One paper at a Korean academic conference"
+    ],
+    "metrics": [
+      {
+        "value": "90%+",
+        "label": "Recognition rate for signs, lanes and following distance (road test)"
+      }
+    ]
+  }
+]

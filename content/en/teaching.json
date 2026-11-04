@@ -1,0 +1,67 @@
+{
+  "terms": [
+    {
+      "term": "Fall 2026",
+      "courses": [
+        {
+          "name": "Embedded Machine Learning",
+          "level": "Junior",
+          "summary": "Hands-on GPIO, PWM and sensors on NUCLEO-F103RB boards, measurement with oscilloscopes and multimeters, and UART/RS-485 communication. After the embedded basics, students train a small model and port it to an STM32."
+        },
+        {
+          "name": "Image Processing Programming",
+          "level": "Junior",
+          "summary": "Practice-first course in Python and OpenCV, from basic image processing to Haar-like face detection and training deep learning models."
+        },
+        {
+          "name": "Algorithms",
+          "level": "Junior",
+          "summary": "Step-by-step practice in C, from finding a maximum and printing star patterns to the Tower of Hanoi."
+        }
+      ]
+    }
+  ],
+  "talks": [
+    {
+      "title": "Designing and Building Embedded Systems with AI",
+      "subtitle": "Case study: TinyML lane detection on the ESP32-S3 edge",
+      "venue": "Halla University public lecture"
+    }
+  ],
+  "materials": [
+    "Beginner Git/GitHub lecture series (version control, branching strategy, Linux GUI tools)",
+    "Korean translations of embedded textbooks (Barr-C coding standard, embedded C, STM32)",
+    "Interactive HTML learning materials on embedded systems fundamentals"
+  ],
+  "projects": [
+    {
+      "id": "tinylanenet",
+      "subtitle": "TinyML edge lane detection on the ESP32-S3",
+      "summary": "A binary pixel-segmentation model trained on the TuSimple dataset, quantized from ONNX to ESP-DL INT8 and run in real time on an ESP32-S3. Used as the case study for a public lecture.",
+      "metrics": [
+        {
+          "label": "Measured on board"
+        },
+        {
+          "label": "Input resolution"
+        },
+        {
+          "label": "Quantization"
+        },
+        {
+          "label": "Score formula"
+        }
+      ]
+    },
+    {
+      "id": "drivable-area",
+      "subtitle": "Drivable area estimation and lane-center guidance",
+      "summary": "Guides the vehicle along the drivable area and the line to follow, based on TwinLiteNet+. Currently validating with closed-loop driving in a Python simulator that rebuilds the Yongin driver's license test course."
+    },
+    {
+      "id": "exam-lockdown",
+      "subtitle": "Windows exam lockdown tool for class",
+      "summary": "A tool I built to block AI websites and programs during hands-on exams, used for midterms. Runs from the system tray and starts at boot."
+    }
+  ]
+}

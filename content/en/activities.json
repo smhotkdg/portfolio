@@ -1,0 +1,95 @@
+[
+  {
+    "id": "pujia8-contract",
+    "title": "China publishing deal for Sea of Death",
+    "org": "Pujia8 Studio (China)"
+  },
+  {
+    "id": "burning-beaver-2022",
+    "title": "Burning Beaver 2022",
+    "org": "Smilegate",
+    "desc": "Sea of Death shown in the mobile section",
+    "links": [
+      {
+        "label": "Article"
+      },
+      {
+        "label": "Article"
+      },
+      {
+        "label": "Article"
+      },
+      {
+        "label": "Article"
+      }
+    ]
+  },
+  {
+    "id": "google-iga-2022",
+    "title": "Selected for Google Indie Games Accelerator 2022",
+    "org": "Google",
+    "desc": "Hoit Studio selected; mentoring feedback applied to Tap Zombie!",
+    "links": [
+      {
+        "label": "Article"
+      },
+      {
+        "label": "Article"
+      },
+      {
+        "label": "Article"
+      }
+    ]
+  },
+  {
+    "id": "bic-2022",
+    "title": "Busan Indie Connect Festival (BIC) 2022",
+    "org": "BIC",
+    "desc": "Sea of Death shown in the mobile section",
+    "links": [
+      {
+        "label": "BIC"
+      },
+      {
+        "label": "Article"
+      }
+    ]
+  },
+  {
+    "id": "bigs-2022",
+    "title": "Honorable mention, Bangguseok Indie Game Show 2022",
+    "org": "Neowiz",
+    "desc": "Sea of Death",
+    "links": [
+      {
+        "label": "Article"
+      }
+    ]
+  },
+  {
+    "id": "restart-package",
+    "title": "Selected for the Restart Success Package",
+    "org": "Korea Institute of Startup & Entrepreneurship Development (KISED)",
+    "desc": "Funded the redesign of DigDuk into Mr.Mine"
+  },
+  {
+    "id": "isvc-2015",
+    "org": "ISVC'15, 11th International Symposium on Visual Computing (USA)",
+    "desc": "Paper presentation"
+  },
+  {
+    "id": "icip-2013",
+    "title": "Attended IEEE International Conference on Image Processing (ICIP 2013)",
+    "org": "IEEE (Australia)"
+  },
+  {
+    "id": "nvidia-cuda-contest",
+    "title": "Honorable mention, NVIDIA CUDA Coding Contest"
+  },
+  {
+    "id": "bit-academy",
+    "title": "Windows programming short and professional courses",
+    "org": "Bit Computer Education Center",
+    "desc": "Short course: C, C++, data structures / Professional course: C# and team project"
+  }
+]

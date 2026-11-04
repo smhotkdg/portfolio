@@ -1,0 +1,40 @@
+[
+  {
+    "id": "halla",
+    "org": "Halla University",
+    "unit": "Advanced Industry Talent Bootcamp",
+    "title": "Professor",
+    "summary": "Teaching Embedded Machine Learning, Image Processing Programming, and Algorithms"
+  },
+  {
+    "id": "playhard",
+    "org": "PlayHard",
+    "title": "Growth Programmer",
+    "summary": "Built games and, drawing on my startup experience, designed monetization features from both the business and development side",
+    "details": [
+      "Mobile game development",
+      "Monetization features designed from big-data analysis",
+      "Live updates"
+    ]
+  },
+  {
+    "id": "hoitstudio",
+    "org": "Hoit Studio",
+    "title": "Co-founder · CTO · Dev PM",
+    "summary": "Developed 12 Unity mobile games and delivered an AI pavement-crack analysis project",
+    "details": [
+      "Data and ad performance analysis with Firebase and Google Analytics",
+      "User acquisition on Google Ads, Facebook Ads and Unity Ads; creative analysis and production",
+      "Selected for Google Indie Games Accelerator 2022",
+      "China publishing deal for Sea of Death (Pujia8 Studio); Steam release",
+      "Honorable mention, Bangguseok Indie Game Show 2022 (Neowiz)",
+      "Selected for KISED's Restart Success Package (Mr.Mine)"
+    ]
+  },
+  {
+    "id": "rodtec",
+    "org": "Rodtec",
+    "title": "Research Lab · Assistant Manager",
+    "summary": "Image-processing algorithm development; MFC vehicle survey software"
+  }
+]
