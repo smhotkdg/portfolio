@@ -1,0 +1,24 @@
+[
+  {
+    "id": "sunmoon-ms",
+    "school": "선문대학교 대학원",
+    "degree": "석사",
+    "major": "영상처리",
+    "start": "2013.03",
+    "end": "2015.02",
+    "status": "졸업",
+    "thesis": {
+      "ko": "영상처리 기반 도로 검출 및 차량 검출에 관한 연구",
+      "en": "A Study on Road Extraction and Vehicle Detection Algorithm Based on Image Processing"
+    }
+  },
+  {
+    "id": "sunmoon-bs",
+    "school": "선문대학교",
+    "degree": "학사",
+    "major": "컴퓨터공학",
+    "start": "2007.03",
+    "end": "2013.02",
+    "status": "졸업"
+  }
+]

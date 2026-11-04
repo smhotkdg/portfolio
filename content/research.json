@@ -1,0 +1,257 @@
+[
+  {
+    "id": "pavement-crack-ai",
+    "category": "contract",
+    "title": "인공지능 도로포장 균열 분석 개발",
+    "org": "Hoit Studio 수행 과제",
+    "sponsor": null,
+    "start": "2020.10",
+    "end": "2021.03",
+    "team": 1,
+    "role": "개발 전담",
+    "summary": "도로 포장 이미지에서 균열을 픽셀 단위로 검출하고, 균열의 방향(수평·수직)과 길이·폭을 측정하는 딥러닝 알고리즘을 개발했습니다.",
+    "highlights": [
+      "SegNet 기반 DeepCrack으로 국내 포장 도로 균열 학습 데이터셋을 새로 구성해 학습",
+      "Ground truth에 균열 폭을 반영해 폭까지 검출",
+      "수평·수직 균열을 분리 학습하고, 1px = 1mm 가정으로 균열별 길이·폭 산출"
+    ],
+    "metrics": [
+      { "value": "512×512", "label": "학습·검출 해상도" },
+      { "value": "GTX TITAN X", "label": "학습 환경" }
+    ],
+    "stack": ["Python", "Deep Learning", "DeepCrack", "SegNet", "YOLO"],
+    "links": [{ "label": "GitHub", "url": "https://github.com/smhotkdg/crack" }],
+    "images": ["assets/img/crack/1.png", "assets/img/crack/2.png", "assets/img/crack/3.png", "assets/img/crack/4.png"]
+  },
+  {
+    "id": "etri-cuda-acceleration",
+    "category": "funded",
+    "title": "카메라 기반 차량 비전 신호처리 통합 및 고속화 알고리즘 연구",
+    "org": "선문대학교 대학원",
+    "sponsor": "한국전자통신연구원 (ETRI)",
+    "start": "2015.07",
+    "end": "2015.11",
+    "team": null,
+    "role": null,
+    "summary": "도로 검출 알고리즘을 NVIDIA CUDA로 병렬화해 임베디드 보드(Jetson TK1)에서 실시간 처리를 확보했습니다.",
+    "highlights": [
+      "CPU 기반 도로 검출의 연산 병목을 분석해 CUDA 병렬 처리로 전환",
+      "Jetson TK1 보드에서 실측 검증"
+    ],
+    "metrics": [
+      { "value": "4.51 → 41.12 fps", "label": "CPU 대비 GPU 평균 처리 속도" },
+      { "value": "약 9배", "label": "속도 향상" }
+    ],
+    "stack": ["C++", "CUDA", "Jetson TK1", "Image Processing"],
+    "links": [],
+    "images": ["assets/research/etri-cuda-acceleration/image1.png", "assets/research/etri-cuda-acceleration/image2.png"]
+  },
+  {
+    "id": "license-plate",
+    "category": "funded",
+    "title": "실시간 번호판 검출 알고리즘 연구",
+    "org": "선문대학교 대학원",
+    "sponsor": "민간 과제",
+    "start": "2015.07",
+    "end": "2015.11",
+    "team": 3,
+    "role": "번호판 인식 알고리즘 연구 및 개발 (기여도 60%)",
+    "summary": "시속 30km 이하로 주행하는 차량의 번호판을 실시간으로 검출·인식하는 알고리즘을 개발했습니다.",
+    "highlights": [
+      "번호판 형태별 특징으로 타입을 분류한 뒤 타입별로 인식",
+      "구형·신형 번호판 모두 적용"
+    ],
+    "metrics": [],
+    "stack": ["Python", "Image Processing"],
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/smhotkdg/license_plate" },
+      { "label": "YouTube", "url": "https://www.youtube.com/watch?v=M3cXLBBN7qI" }
+    ],
+    "images": ["assets/img/lpd/1.png", "assets/img/lpd/2.png", "assets/img/lpd/3.png"]
+  },
+  {
+    "id": "etri-road-detection",
+    "category": "funded",
+    "title": "카메라 기반 차량 전방 실시간 도로 영역 추출 알고리즘 연구",
+    "org": "선문대학교 대학원",
+    "sponsor": "한국전자통신연구원 (ETRI)",
+    "start": "2014.04",
+    "end": "2014.12",
+    "team": 2,
+    "role": "알고리즘 개발 (기여도 70%)",
+    "summary": "고속도로와 국도, 복잡한 시내 영상에서 도로 영역을 실시간으로 추출하는 알고리즘을 연구했습니다. 이 연구는 ISVC'15 논문으로 발표했습니다.",
+    "highlights": [
+      "HSV 색 공간의 S 채널 특성으로 도로 후보 영역 검출",
+      "엣지 정보로 오검출 영역을 보정해 세밀하게 도로 경계 추출"
+    ],
+    "metrics": [],
+    "stack": ["C++", "Image Processing", "OpenCV"],
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/smhotkdg/roaddtection" },
+      { "label": "YouTube", "url": "https://www.youtube.com/watch?v=h2cEX1Ey50I" },
+      { "label": "논문 (ISVC'15)", "url": "https://link.springer.com/chapter/10.1007/978-3-319-27863-6_49" }
+    ],
+    "images": ["assets/img/road/1.png", "assets/img/road/2.png", "assets/research/etri-road-detection/image2.png", "assets/research/etri-road-detection/image4.png"]
+  },
+  {
+    "id": "etri-blindspot-pedestrian",
+    "category": "funded",
+    "title": "영상 신호처리 기반 효과적인 다중 객체 분할 및 추적 알고리즘 연구",
+    "subtitle": "사각지대 차량 검출 · 전방 보행자 검출",
+    "org": "선문대학교 대학원",
+    "sponsor": "한국전자통신연구원 (ETRI)",
+    "start": "2013.05",
+    "end": "2013.11",
+    "team": 1,
+    "role": "개발 전담",
+    "summary": "운전자 사각지대의 차량과 전방 보행자를 검출해 위험을 알리는 알고리즘을 연구했습니다.",
+    "highlights": [
+      "차량 특징 학습으로 사각지대 차량 검출, 후보 영역의 오검출 보정",
+      "기존 HOG의 한계를 wavelet transform으로 보완한 보행자 검출 기법 제안"
+    ],
+    "metrics": [],
+    "stack": ["C#", "Image Processing", "HOG", "Wavelet"],
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/smhotkdg/BlindSpotDetection" },
+      { "label": "YouTube", "url": "https://youtu.be/3Wd89kLV-8c" }
+    ],
+    "images": ["assets/img/blind/1.png", "assets/img/blind/2.png", "assets/img/blind/3.png"]
+  },
+  {
+    "id": "vlc-h264",
+    "category": "funded",
+    "title": "근거리 무선 광 통신 융합 기술 개발 (3차년도)",
+    "org": "선문대학교 대학원",
+    "sponsor": "충청광역경제권 선도사업지원단",
+    "start": "2013.03",
+    "end": "2015.02",
+    "team": 2,
+    "role": "H.264/AVC 인코더 개발 (기여도 50%)",
+    "summary": "가시광 무선통신(IEEE 802.15.7) 표준을 분석하고, 영상 전송용 H.264/AVC 재생기를 개발했습니다.",
+    "highlights": [
+      "IEEE 802.15.7 송수신 물리계층·LED 인터페이스·위치 정보·식별체계 구조 분석",
+      "H.264/AVC 기반 인코더, MPEG-4 기반 디코더 개발",
+      "Full HD 실시간 스트림 전송"
+    ],
+    "metrics": [],
+    "stack": ["C#", "H.264/AVC", "MPEG-4", "IEEE 802.15.7"],
+    "links": [{ "label": "GitHub", "url": "https://github.com/smhotkdg/VLC_simulator" }],
+    "images": ["assets/img/vlc/1.png", "assets/img/vlc/2.png"]
+  },
+  {
+    "id": "leam-leap-motion",
+    "category": "student",
+    "title": "LEAM (Leap motion Editor And Media)",
+    "org": "TODO 소속",
+    "sponsor": null,
+    "start": "TODO",
+    "end": "TODO",
+    "duration": "3개월",
+    "team": null,
+    "role": null,
+    "summary": "Leap Motion으로 손가락 움직임을 인식해 아바타를 조종하고, 그 동작을 녹화·편집하는 도구를 만들었습니다.",
+    "highlights": [
+      "Leap Motion 원시 데이터를 처리하는 자체 API와 손가락 구분 알고리즘 개발",
+      "XML로 동작 정보를 가공하고 다중 녹화 편집 기능 구현",
+      "국내 전문학술대회 논문 1편"
+    ],
+    "metrics": [],
+    "stack": [".NET Framework 4.0", "XNA", "Leap Motion"],
+    "links": [],
+    "images": ["assets/research/leam-leap-motion/image1.png", "assets/research/leam-leap-motion/image2.png", "assets/research/leam-leap-motion/image3.png"]
+  },
+  {
+    "id": "motion-tv",
+    "category": "student",
+    "title": "Motion TV",
+    "subtitle": "제11회 임베디드 소프트웨어 경진대회 참가",
+    "org": "TODO 소속",
+    "sponsor": null,
+    "start": "TODO",
+    "end": "TODO",
+    "duration": "2개월",
+    "team": 5,
+    "role": null,
+    "summary": "셋톱박스에서 양손을 추적해 포인터를 만들고, 제스처로 TV를 조작하는 인터페이스를 개발했습니다.",
+    "highlights": [
+      "양손 핸드 트래킹으로 화면 좌표에 매핑한 포인터 생성",
+      "특정 제스처로 TV 기능 제어",
+      "휴맥스 셋톱박스에 응용 프로그램을 올려 실행"
+    ],
+    "metrics": [],
+    "stack": ["Hand Tracking", "Gesture Recognition", "Embedded"],
+    "links": [],
+    "images": ["assets/research/motion-tv/image1.png", "assets/research/motion-tv/image2.jpeg"]
+  },
+  {
+    "id": "davinci-code",
+    "category": "student",
+    "title": "The Davinci Code",
+    "subtitle": "이미지 속 텍스트 은닉 프로그램",
+    "org": "선문대학교",
+    "sponsor": null,
+    "start": "2012.10",
+    "end": "2012.10",
+    "duration": "2주",
+    "team": 2,
+    "role": "개발",
+    "summary": "텍스트를 이진수로 바꿔 픽셀의 R·G·B 최하위 비트에 숨기고, 다시 복원하는 프로그램입니다. 원본과 결과 이미지는 눈으로 구분되지 않고 파일 크기도 같습니다.",
+    "highlights": [],
+    "metrics": [],
+    "stack": ["C#", "Steganography"],
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/smhotkdg/TheDavinciCode" },
+      { "label": "Blog", "url": "https://blog.naver.com/smhotkdg/60174556791" }
+    ],
+    "images": ["assets/img/davi/1.png", "assets/img/davi/4.png", "assets/img/davi/5.png"]
+  },
+  {
+    "id": "cctv-face-dna",
+    "category": "student",
+    "title": "움직임 감지와 얼굴 DNA 검출을 통한 CCTV 개선 프로그램",
+    "org": "선문대학교",
+    "sponsor": null,
+    "start": "2012.09",
+    "end": "2012.10",
+    "duration": "3개월",
+    "team": 2,
+    "role": "얼굴 인식 및 얼굴 DNA 알고리즘 개발 (기여도 60%)",
+    "summary": "움직임이 감지되고 등록되지 않은 얼굴이 나타날 때만 녹화하고 사용자 휴대폰으로 알리는 CCTV 프로그램입니다. 무분별한 녹화와 사후 대응의 한계를 줄이는 것이 목표였습니다.",
+    "highlights": [
+      "움직임 검출 → 얼굴 검출 → 얼굴 데이터(DNA) 비교 파이프라인",
+      "미등록 얼굴은 웹·휴대폰으로 영상·사진 전송 및 알림"
+    ],
+    "metrics": [],
+    "stack": ["C#", ".NET Framework 4.0", "OpenCV"],
+    "links": [
+      { "label": "Blog", "url": "https://blog.naver.com/smhotkdg/60163653224" },
+      { "label": "YouTube", "url": "https://www.youtube.com/watch?v=Y0-1hR0Sle0" }
+    ],
+    "images": ["assets/img/cctv/1.png", "assets/img/cctv/2.png"]
+  },
+  {
+    "id": "ads-system",
+    "category": "student",
+    "title": "운전자 정보 극대화를 위한 Augmented Driving System (ADS)",
+    "org": "선문대학교",
+    "sponsor": null,
+    "start": "2011.09",
+    "end": "2011.12",
+    "duration": "3개월",
+    "team": 4,
+    "role": "차량 검출 · 제스처 인식 · 차선 인식 개발 (기여도 50%)",
+    "summary": "카메라 한 대로 앞차와의 거리, 차선, 교통 표지판을 검출해 HUD로 보여주고, 음성과 제스처로 시스템을 조작하는 운전 보조 인터페이스입니다.",
+    "highlights": [
+      "차량 검출·거리 인식, 번호판 검출, 차선 이탈 경고, 표지판 인식",
+      "음성으로 호출하고 제스처로 메뉴를 고르는 HUD 인터페이스",
+      "국내 전문학술대회 논문 1편"
+    ],
+    "metrics": [{ "value": "약 90% 이상", "label": "표지판·차선·차간거리 인식률 (실차 테스트)" }],
+    "stack": ["C#", "Image Processing", "Gesture Recognition"],
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/smhotkdg/ADAS" },
+      { "label": "Blog", "url": "https://blog.naver.com/smhotkdg/60163657211" }
+    ],
+    "images": ["assets/img/ads/1.png", "assets/img/ads/2.png"]
+  }
+]

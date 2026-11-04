@@ -1,0 +1,46 @@
+[
+  {
+    "id": "halla",
+    "org": "한라대학교",
+    "unit": "첨단산업인재양성 부트캠프사업단",
+    "title": "교수",
+    "start": "2026.09",
+    "end": null,
+    "summary": "임베디드 머신러닝, 영상처리 프로그래밍, 알고리즘 강의",
+    "details": [],
+    "see": "teaching"
+  },
+  {
+    "id": "playhard",
+    "org": "플레이하드",
+    "title": "게임 개발",
+    "start": "2024.04",
+    "end": "2026.01",
+    "summary": "인디 모바일 게임 제작 및 운영",
+    "details": []
+  },
+  {
+    "id": "hoitstudio",
+    "org": "Hoit Studio",
+    "title": "공동창업자 · CTO · 개발 PM",
+    "start": "2018.10",
+    "end": "2024.03",
+    "summary": "Unity 기반 모바일 게임 12종 개발, 인공지능 도로포장 균열 분석 과제 수행",
+    "details": [
+      "Google Indie Games Accelerator 2022 선정",
+      "'죽음의 바다' 중국 퍼블리싱 계약 (Pujia8 Studio), 스팀 출시",
+      "방구석 인디 게임쇼 2022 장려상",
+      "창업진흥원 재도전성공패키지 선정 (Mr.Mine)"
+    ],
+    "see": "games"
+  },
+  {
+    "id": "rodtec",
+    "org": "로드텍",
+    "title": "연구소 · 대리",
+    "start": "2016.05",
+    "end": "2017.10",
+    "summary": "영상처리 기반 알고리즘 개발, MFC 차량 조사 프로그램 개발",
+    "details": []
+  }
+]

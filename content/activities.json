@@ -1,0 +1,124 @@
+[
+  {
+    "id": "pujia8-contract",
+    "type": "contract",
+    "start": "2023.01",
+    "end": "2026.01",
+    "title": "'죽음의 바다' 중국 퍼블리싱 계약",
+    "org": "Pujia8 Studio (중국)",
+    "desc": "",
+    "links": [{ "label": "TapTap", "url": "https://www.taptap.cn/app/297183" }],
+    "images": ["assets/img/etc/pujia8.png"]
+  },
+  {
+    "id": "burning-beaver-2022",
+    "type": "exhibition",
+    "start": "2022.12.16",
+    "end": "2022.12.18",
+    "title": "버닝비버 2022",
+    "org": "스마일게이트",
+    "desc": "'죽음의 바다' 모바일 부문 전시",
+    "links": [
+      { "label": "기사", "url": "https://v.daum.net/v/20221217060000053" },
+      { "label": "기사", "url": "https://page.onstove.com/indie/global/view/9128050" },
+      { "label": "기사", "url": "https://dailian.co.kr/news/view/1184342" },
+      { "label": "기사", "url": "http://www.goodkyung.com/news/articleView.html?idxno=195655" }
+    ],
+    "images": ["assets/img/etc/BurningBeaver/1.jpg", "assets/img/etc/BurningBeaver/2.jpg", "assets/img/etc/BurningBeaver/3.jpg", "assets/img/etc/BurningBeaver/4.jpg", "assets/img/etc/BurningBeaver/5.jpg"]
+  },
+  {
+    "id": "google-iga-2022",
+    "type": "program",
+    "start": "2022.10",
+    "end": "2022.12",
+    "title": "Google Indie Games Accelerator 2022 선정",
+    "org": "Google",
+    "desc": "Hoit Studio 선정, '탭 좀비!' 개발에 멘토링 피드백 반영",
+    "links": [
+      { "label": "기사", "url": "https://dailian.co.kr/news/view/1183183" },
+      { "label": "기사", "url": "https://www.gamejob.co.kr/Community/news/detail?Comm_Stat=11&Sub_Comm_Stat=0&idx=94397&mode=V" },
+      { "label": "기사", "url": "https://www.metroseoul.co.kr/article/20221213500485" }
+    ],
+    "images": ["assets/img/etc/iga/1.jpg", "assets/img/etc/iga/2.jpg", "assets/img/etc/iga/3.jpg", "assets/img/etc/iga/4.jpg", "assets/img/etc/iga/5.jpg"]
+  },
+  {
+    "id": "bic-2022",
+    "type": "exhibition",
+    "start": "2022.09.01",
+    "end": "2022.09.04",
+    "title": "부산 인디 커넥트 페스티벌 (BIC) 2022",
+    "org": "BIC",
+    "desc": "'죽음의 바다' 모바일 부문 전시",
+    "links": [
+      { "label": "BIC", "url": "https://bicfest.org/festival03?showYear%5B0%5D=2022&hardware%5B0%5D=MOBILE&page=4" },
+      { "label": "기사", "url": "https://zdnet.co.kr/view/?no=20221114123016" }
+    ],
+    "images": ["assets/img/etc/busan/1.jpg", "assets/img/etc/busan/2.jpg", "assets/img/etc/busan/3.jpg", "assets/img/etc/busan/4.jpg", "assets/img/etc/busan/5.jpg"]
+  },
+  {
+    "id": "bigs-2022",
+    "type": "award",
+    "start": "2022.08",
+    "end": null,
+    "title": "방구석 인디 게임쇼 2022 장려상",
+    "org": "네오위즈",
+    "desc": "'죽음의 바다'",
+    "links": [{ "label": "기사", "url": "https://zdnet.co.kr/view/?no=20220927095749" }],
+    "images": ["assets/img/etc/bigs.jpg"]
+  },
+  {
+    "id": "restart-package",
+    "type": "program",
+    "start": "TODO",
+    "end": null,
+    "title": "재도전성공패키지 선정",
+    "org": "창업진흥원",
+    "desc": "'디그덕'을 재구성한 'Mr.Mine' 개발",
+    "links": [],
+    "images": []
+  },
+  {
+    "id": "isvc-2015",
+    "type": "publication",
+    "start": "2015.12",
+    "end": null,
+    "title": "A Robust Real-Time Road Detection Algorithm Using Color and Edge Information",
+    "org": "ISVC'15, 11th International Symposium on Visual Computing (미국)",
+    "desc": "논문 발표",
+    "links": [{ "label": "Springer", "url": "https://link.springer.com/chapter/10.1007/978-3-319-27863-6_49" }],
+    "images": []
+  },
+  {
+    "id": "icip-2013",
+    "type": "conference",
+    "start": "2013.09",
+    "end": null,
+    "title": "IEEE International Conference on Image Processing (ICIP 2013) 참석",
+    "org": "IEEE (호주)",
+    "desc": "",
+    "links": [],
+    "images": []
+  },
+  {
+    "id": "nvidia-cuda-contest",
+    "type": "award",
+    "start": "TODO",
+    "end": null,
+    "title": "NVIDIA CUDA Coding Contest 장려상",
+    "org": "NVIDIA",
+    "desc": "",
+    "links": [],
+    "images": []
+  },
+  {
+    "id": "bit-academy",
+    "type": "training",
+    "start": "2010.12",
+    "end": "2012.02",
+    "title": "Windows 프로그래밍 단기·전문가 과정 수료",
+    "org": "비트교육센터",
+    "desc": "단기 과정 C, C++, 자료구조 / 전문가 과정 C# 및 프로젝트",
+    "links": [],
+    "images": []
+  }
+]
