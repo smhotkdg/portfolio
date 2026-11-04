@@ -5,25 +5,73 @@
   "position": "한라대학교 첨단산업인재양성 부트캠프사업단 교수",
   "summary": [
     "대학원에서 차량 전방 도로·차량·보행자 검출 알고리즘을 연구했고, 도로 영상처리 개발자로 일을 시작했습니다.",
-    "이후 인디게임 스튜디오 Hoit Studio를 공동 창업해 CTO로 모바일 게임 10여 종을 개발·출시했고, 플레이하드에서 모바일 게임 제작과 운영을 맡았습니다.",
+    "이후 인디게임 스튜디오 Hoit Studio를 공동 창업해 CTO로 모바일 게임 12종을 개발했고, 플레이하드에서는 Growth Programmer로 게임 개발과 데이터 기반 수익화·라이브 업데이트를 맡았습니다.",
     "지금은 대학에서 임베디드 AI와 영상처리를 가르치며, 작은 보드 위에서 동작하는 AI를 처음 배우는 학생도 따라올 수 있게 풀어서 설명하는 일에 집중합니다."
   ],
   "careerTotal": "8년 10개월",
-  "keywords": ["Embedded AI", "TinyML", "Computer Vision", "Image Processing", "CUDA", "Unity", "STM32", "ESP32-S3", "Python", "C/C++", "C#"],
+  "keywords": [
+    "Embedded AI",
+    "TinyML",
+    "Computer Vision",
+    "Image Processing",
+    "CUDA",
+    "Unity",
+    "STM32",
+    "ESP32-S3",
+    "Python",
+    "C/C++",
+    "C#"
+  ],
   "contacts": [
-    { "type": "email", "label": "Email", "value": "cozy0614@gmail.com" },
-    { "type": "github", "label": "GitHub", "value": "github.com/smhotkdg", "url": "https://github.com/smhotkdg" },
-    { "type": "linkedin", "label": "LinkedIn", "value": "seunghun-yang", "url": "https://www.linkedin.com/in/seunghun-yang-a2180b120/" },
-    { "type": "blog", "label": "Blog", "value": "blog.naver.com/smhotkdg", "url": "http://blog.naver.com/smhotkdg" },
-    { "type": "itch", "label": "itch.io", "value": "cozy0614.itch.io", "url": "https://cozy0614.itch.io/" }
+    {
+      "type": "email",
+      "label": "Email",
+      "value": "cozy0614@gmail.com"
+    },
+    {
+      "type": "github",
+      "label": "GitHub",
+      "value": "github.com/smhotkdg",
+      "url": "https://github.com/smhotkdg"
+    },
+    {
+      "type": "linkedin",
+      "label": "LinkedIn",
+      "value": "seunghun-yang",
+      "url": "https://www.linkedin.com/in/seunghun-yang-a2180b120/"
+    },
+    {
+      "type": "blog",
+      "label": "Blog",
+      "value": "blog.naver.com/smhotkdg",
+      "url": "http://blog.naver.com/smhotkdg"
+    },
+    {
+      "type": "itch",
+      "label": "itch.io",
+      "value": "cozy0614.itch.io",
+      "url": "https://cozy0614.itch.io/"
+    }
   ],
   "studio": {
     "name": "Hoit Studio",
     "links": [
-      { "label": "Website", "url": "https://hoitstudio.com" },
-      { "label": "Google Play", "url": "https://play.google.com/store/apps/dev?id=7680613153634598773" },
-      { "label": "App Store", "url": "https://apps.apple.com/us/developer/seunghun-yang/id1491885705" },
-      { "label": "Steam", "url": "https://store.steampowered.com/search/?developer=Hoit%20Studio" }
+      {
+        "label": "Website",
+        "url": "https://hoitstudio.com"
+      },
+      {
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/dev?id=7680613153634598773"
+      },
+      {
+        "label": "App Store",
+        "url": "https://apps.apple.com/us/developer/seunghun-yang/id1491885705"
+      },
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/search/?developer=Hoit%20Studio"
+      }
     ]
   },
   "avatar": "assets/img/avatar.jpg"

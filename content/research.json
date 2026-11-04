@@ -43,7 +43,8 @@
       "assets/img/crack/2.png",
       "assets/img/crack/3.png",
       "assets/img/crack/4.png"
-    ]
+    ],
+    "cover": "assets/img/Logo/road.png"
   },
   {
     "id": "etri-cuda-acceleration",
@@ -80,7 +81,8 @@
     "images": [
       "assets/research/etri-cuda-acceleration/image1.png",
       "assets/research/etri-cuda-acceleration/image2.png"
-    ]
+    ],
+    "cover": "assets/research/etri-cuda-acceleration/image1.png"
   },
   {
     "id": "license-plate",
@@ -115,8 +117,12 @@
     "images": [
       "assets/img/lpd/1.png",
       "assets/img/lpd/2.png",
-      "assets/img/lpd/3.png"
-    ]
+      "assets/img/lpd/3.png",
+      "assets/research/license-plate/image1.png",
+      "assets/research/license-plate/image2.png",
+      "assets/research/license-plate/image3.png"
+    ],
+    "cover": "assets/img/Logo/license_plate.png"
   },
   {
     "id": "etri-road-detection",
@@ -157,8 +163,13 @@
       "assets/img/road/1.png",
       "assets/img/road/2.png",
       "assets/research/etri-road-detection/image2.png",
-      "assets/research/etri-road-detection/image4.png"
-    ]
+      "assets/research/etri-road-detection/image4.png",
+      "assets/research/etri-road-detection/image1.png",
+      "assets/research/etri-road-detection/image3.png",
+      "assets/research/etri-road-detection/image5.jpeg",
+      "assets/research/etri-road-detection/image6.png"
+    ],
+    "cover": "assets/img/Logo/RoadDetection.png"
   },
   {
     "id": "etri-blindspot-pedestrian",
@@ -196,8 +207,15 @@
     "images": [
       "assets/img/blind/1.png",
       "assets/img/blind/2.png",
-      "assets/img/blind/3.png"
-    ]
+      "assets/img/blind/3.png",
+      "assets/research/etri-blindspot-pedestrian/image1.png",
+      "assets/research/etri-blindspot-pedestrian/image2.png",
+      "assets/research/etri-blindspot-pedestrian/image3.png",
+      "assets/research/etri-blindspot-pedestrian/image4.png",
+      "assets/research/etri-blindspot-pedestrian/image5.png",
+      "assets/research/etri-blindspot-pedestrian/image6.png"
+    ],
+    "cover": "assets/img/Logo/blind.png"
   },
   {
     "id": "vlc-h264",
@@ -230,8 +248,11 @@
     ],
     "images": [
       "assets/img/vlc/1.png",
-      "assets/img/vlc/2.png"
-    ]
+      "assets/img/vlc/2.png",
+      "assets/research/vlc-h264/image1.jpeg",
+      "assets/research/vlc-h264/image2.jpeg"
+    ],
+    "cover": "assets/img/Logo/vlc.png"
   },
   {
     "id": "davinci-code",
@@ -264,9 +285,12 @@
     ],
     "images": [
       "assets/img/davi/1.png",
+      "assets/img/davi/2.png",
+      "assets/img/davi/3.png",
       "assets/img/davi/4.png",
       "assets/img/davi/5.png"
-    ]
+    ],
+    "cover": "assets/img/Logo/code.png"
   },
   {
     "id": "cctv-face-dna",
@@ -302,8 +326,13 @@
     ],
     "images": [
       "assets/img/cctv/1.png",
-      "assets/img/cctv/2.png"
-    ]
+      "assets/img/cctv/2.png",
+      "assets/research/cctv-face-dna/image1.png",
+      "assets/research/cctv-face-dna/image2.png",
+      "assets/research/cctv-face-dna/image3.png",
+      "assets/research/cctv-face-dna/image4.png"
+    ],
+    "cover": "assets/img/Logo/crr.png"
   },
   {
     "id": "ads-system",
@@ -345,7 +374,12 @@
     ],
     "images": [
       "assets/img/ads/1.png",
-      "assets/img/ads/2.png"
-    ]
+      "assets/img/ads/2.png",
+      "assets/research/ads-system/image1.png",
+      "assets/research/ads-system/image2.png",
+      "assets/research/ads-system/image3.png",
+      "assets/research/ads-system/image4.png"
+    ],
+    "cover": "assets/img/Logo/adas.png"
   }
 ]

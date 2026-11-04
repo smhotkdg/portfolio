@@ -44,6 +44,7 @@
       }
     ],
     "icon": "assets/img/projects/galaxy_tale_character_icon.png",
+    "cover": "assets/img/Logo/galaxy_tale.png",
     "media": [
       "assets/video/GalaxyTale/magicitem_1.gif",
       "assets/video/GalaxyTale/normal_1.gif"
@@ -105,6 +106,7 @@
       }
     ],
     "icon": "assets/img/projects/tabzombie.png",
+    "cover": "assets/img/Logo/tab-zombie.png",
     "media": [
       "assets/video/tapzombie/tapzombie_1.gif",
       "assets/video/tapzombie/tapzombie_2.gif"
@@ -183,6 +185,7 @@
       }
     ],
     "icon": "assets/img/projects/styx.png",
+    "cover": "assets/img/Logo/styx.png",
     "media": [
       "assets/video/styx/1.gif",
       "assets/video/styx/2.gif"
@@ -240,6 +243,7 @@
       }
     ],
     "icon": "assets/img/projects/heroesstory.png",
+    "cover": "assets/img/Logo/heroesstory.png",
     "media": [
       "assets/video/heroesstory/1.gif",
       "assets/video/heroesstory/2.gif"
@@ -294,6 +298,7 @@
       }
     ],
     "icon": "assets/img/projects/reaper.png",
+    "cover": "assets/img/Logo/reaper.png",
     "media": [
       "assets/video/reaper/reaper.gif",
       "assets/video/reaper/reaper2.png"
@@ -343,6 +348,7 @@
       }
     ],
     "icon": "assets/img/projects/swipedrive.png",
+    "cover": "assets/img/Logo/swipedrive.png",
     "media": [
       "assets/video/swipedrive/swipedrive1.gif",
       "assets/video/swipedrive/swipedrive2.gif"
@@ -390,6 +396,7 @@
       }
     ],
     "icon": "assets/img/projects/mergemine.png",
+    "cover": "assets/img/Logo/merge.png",
     "media": [
       "assets/video/mergemine/1.gif",
       "assets/video/mergemine/2.gif"
@@ -436,6 +443,7 @@
       }
     ],
     "icon": "assets/img/projects/mrmine.png",
+    "cover": "assets/img/Logo/mrmine.png",
     "media": [
       "assets/video/mrmine/mrmine.gif",
       "assets/video/mrmine/mrmine2.gif"
@@ -483,6 +491,7 @@
       }
     ],
     "icon": "assets/img/projects/jump.png",
+    "cover": "assets/img/Logo/jump.png",
     "media": [
       "assets/video/jump/jump1.gif",
       "assets/video/jump/jump2.gif"
@@ -523,6 +532,7 @@
       }
     ],
     "icon": "assets/img/projects/hop.png",
+    "cover": "assets/img/Logo/Hop.png",
     "media": [
       "assets/video/Hop/Hop.gif"
     ]
@@ -562,6 +572,7 @@
       }
     ],
     "icon": "assets/img/projects/zombiewar.png",
+    "cover": "assets/img/Logo/zombiewar.png",
     "media": [
       "assets/video/zombiewar/zombiewar1.gif",
       "assets/video/zombiewar/zombiewar2.gif"
@@ -605,6 +616,7 @@
       }
     ],
     "icon": "assets/img/projects/digduk.png",
+    "cover": "assets/img/Logo/dig.png",
     "media": [
       "assets/video/digduk/digduk1.gif",
       "assets/video/digduk/digduk2.gif"

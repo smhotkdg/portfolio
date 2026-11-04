@@ -16,7 +16,11 @@
 
 ## 남은 항목
 
-- 깃허브 저장소 링크는 아직 하나씩 열어 확인하지 않음 (비공개 저장소가 섞여 있을 수 있음)
+- 깃허브 저장소 링크 점검 (2026-11-04): 18개 공개 확인. 아래 3개는 외부에서 열리지 않음 → 공개로 바꾸거나 링크 삭제
+  - `smhotkdg/MeowMeowPunch` (갤럭시 테일)
+  - `smhotkdg/drivable-area-estimation`
+  - `smhotkdg/ExamLockdown`
+- 사용하지 않은 기존 이미지: `assets/img/Logo/rocket.png` (어떤 프로젝트인지 알려주면 추가), `assets/img/projects/project-*-icon.png` (스톡 사진)
 
 ## 의도적으로 뺀 정보
 
