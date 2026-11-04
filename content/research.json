@@ -16,12 +16,34 @@
       "수평·수직 균열을 분리 학습하고, 1px = 1mm 가정으로 균열별 길이·폭 산출"
     ],
     "metrics": [
-      { "value": "512×512", "label": "학습·검출 해상도" },
-      { "value": "GTX TITAN X", "label": "학습 환경" }
+      {
+        "value": "512×512",
+        "label": "학습·검출 해상도"
+      },
+      {
+        "value": "GTX TITAN X",
+        "label": "학습 환경"
+      }
     ],
-    "stack": ["Python", "Deep Learning", "DeepCrack", "SegNet", "YOLO"],
-    "links": [{ "label": "GitHub", "url": "https://github.com/smhotkdg/crack" }],
-    "images": ["assets/img/crack/1.png", "assets/img/crack/2.png", "assets/img/crack/3.png", "assets/img/crack/4.png"]
+    "stack": [
+      "Python",
+      "Deep Learning",
+      "DeepCrack",
+      "SegNet",
+      "YOLO"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/crack"
+      }
+    ],
+    "images": [
+      "assets/img/crack/1.png",
+      "assets/img/crack/2.png",
+      "assets/img/crack/3.png",
+      "assets/img/crack/4.png"
+    ]
   },
   {
     "id": "etri-cuda-acceleration",
@@ -39,12 +61,26 @@
       "Jetson TK1 보드에서 실측 검증"
     ],
     "metrics": [
-      { "value": "4.51 → 41.12 fps", "label": "CPU 대비 GPU 평균 처리 속도" },
-      { "value": "약 9배", "label": "속도 향상" }
+      {
+        "value": "4.51 → 41.12 fps",
+        "label": "CPU 대비 GPU 평균 처리 속도"
+      },
+      {
+        "value": "약 9배",
+        "label": "속도 향상"
+      }
     ],
-    "stack": ["C++", "CUDA", "Jetson TK1", "Image Processing"],
+    "stack": [
+      "C++",
+      "CUDA",
+      "Jetson TK1",
+      "Image Processing"
+    ],
     "links": [],
-    "images": ["assets/research/etri-cuda-acceleration/image1.png", "assets/research/etri-cuda-acceleration/image2.png"]
+    "images": [
+      "assets/research/etri-cuda-acceleration/image1.png",
+      "assets/research/etri-cuda-acceleration/image2.png"
+    ]
   },
   {
     "id": "license-plate",
@@ -62,12 +98,25 @@
       "구형·신형 번호판 모두 적용"
     ],
     "metrics": [],
-    "stack": ["Python", "Image Processing"],
-    "links": [
-      { "label": "GitHub", "url": "https://github.com/smhotkdg/license_plate" },
-      { "label": "YouTube", "url": "https://www.youtube.com/watch?v=M3cXLBBN7qI" }
+    "stack": [
+      "Python",
+      "Image Processing"
     ],
-    "images": ["assets/img/lpd/1.png", "assets/img/lpd/2.png", "assets/img/lpd/3.png"]
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/license_plate"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=M3cXLBBN7qI"
+      }
+    ],
+    "images": [
+      "assets/img/lpd/1.png",
+      "assets/img/lpd/2.png",
+      "assets/img/lpd/3.png"
+    ]
   },
   {
     "id": "etri-road-detection",
@@ -85,13 +134,31 @@
       "엣지 정보로 오검출 영역을 보정해 세밀하게 도로 경계 추출"
     ],
     "metrics": [],
-    "stack": ["C++", "Image Processing", "OpenCV"],
-    "links": [
-      { "label": "GitHub", "url": "https://github.com/smhotkdg/roaddtection" },
-      { "label": "YouTube", "url": "https://www.youtube.com/watch?v=h2cEX1Ey50I" },
-      { "label": "논문 (ISVC'15)", "url": "https://link.springer.com/chapter/10.1007/978-3-319-27863-6_49" }
+    "stack": [
+      "C++",
+      "Image Processing",
+      "OpenCV"
     ],
-    "images": ["assets/img/road/1.png", "assets/img/road/2.png", "assets/research/etri-road-detection/image2.png", "assets/research/etri-road-detection/image4.png"]
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/roaddtection"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=h2cEX1Ey50I"
+      },
+      {
+        "label": "논문 (ISVC'15)",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-319-27863-6_49"
+      }
+    ],
+    "images": [
+      "assets/img/road/1.png",
+      "assets/img/road/2.png",
+      "assets/research/etri-road-detection/image2.png",
+      "assets/research/etri-road-detection/image4.png"
+    ]
   },
   {
     "id": "etri-blindspot-pedestrian",
@@ -110,12 +177,27 @@
       "기존 HOG의 한계를 wavelet transform으로 보완한 보행자 검출 기법 제안"
     ],
     "metrics": [],
-    "stack": ["C#", "Image Processing", "HOG", "Wavelet"],
-    "links": [
-      { "label": "GitHub", "url": "https://github.com/smhotkdg/BlindSpotDetection" },
-      { "label": "YouTube", "url": "https://youtu.be/3Wd89kLV-8c" }
+    "stack": [
+      "C#",
+      "Image Processing",
+      "HOG",
+      "Wavelet"
     ],
-    "images": ["assets/img/blind/1.png", "assets/img/blind/2.png", "assets/img/blind/3.png"]
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/BlindSpotDetection"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://youtu.be/3Wd89kLV-8c"
+      }
+    ],
+    "images": [
+      "assets/img/blind/1.png",
+      "assets/img/blind/2.png",
+      "assets/img/blind/3.png"
+    ]
   },
   {
     "id": "vlc-h264",
@@ -134,54 +216,22 @@
       "Full HD 실시간 스트림 전송"
     ],
     "metrics": [],
-    "stack": ["C#", "H.264/AVC", "MPEG-4", "IEEE 802.15.7"],
-    "links": [{ "label": "GitHub", "url": "https://github.com/smhotkdg/VLC_simulator" }],
-    "images": ["assets/img/vlc/1.png", "assets/img/vlc/2.png"]
-  },
-  {
-    "id": "leam-leap-motion",
-    "category": "student",
-    "title": "LEAM (Leap motion Editor And Media)",
-    "org": "TODO 소속",
-    "sponsor": null,
-    "start": "TODO",
-    "end": "TODO",
-    "duration": "3개월",
-    "team": null,
-    "role": null,
-    "summary": "Leap Motion으로 손가락 움직임을 인식해 아바타를 조종하고, 그 동작을 녹화·편집하는 도구를 만들었습니다.",
-    "highlights": [
-      "Leap Motion 원시 데이터를 처리하는 자체 API와 손가락 구분 알고리즘 개발",
-      "XML로 동작 정보를 가공하고 다중 녹화 편집 기능 구현",
-      "국내 전문학술대회 논문 1편"
+    "stack": [
+      "C#",
+      "H.264/AVC",
+      "MPEG-4",
+      "IEEE 802.15.7"
     ],
-    "metrics": [],
-    "stack": [".NET Framework 4.0", "XNA", "Leap Motion"],
-    "links": [],
-    "images": ["assets/research/leam-leap-motion/image1.png", "assets/research/leam-leap-motion/image2.png", "assets/research/leam-leap-motion/image3.png"]
-  },
-  {
-    "id": "motion-tv",
-    "category": "student",
-    "title": "Motion TV",
-    "subtitle": "제11회 임베디드 소프트웨어 경진대회 참가",
-    "org": "TODO 소속",
-    "sponsor": null,
-    "start": "TODO",
-    "end": "TODO",
-    "duration": "2개월",
-    "team": 5,
-    "role": null,
-    "summary": "셋톱박스에서 양손을 추적해 포인터를 만들고, 제스처로 TV를 조작하는 인터페이스를 개발했습니다.",
-    "highlights": [
-      "양손 핸드 트래킹으로 화면 좌표에 매핑한 포인터 생성",
-      "특정 제스처로 TV 기능 제어",
-      "휴맥스 셋톱박스에 응용 프로그램을 올려 실행"
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/VLC_simulator"
+      }
     ],
-    "metrics": [],
-    "stack": ["Hand Tracking", "Gesture Recognition", "Embedded"],
-    "links": [],
-    "images": ["assets/research/motion-tv/image1.png", "assets/research/motion-tv/image2.jpeg"]
+    "images": [
+      "assets/img/vlc/1.png",
+      "assets/img/vlc/2.png"
+    ]
   },
   {
     "id": "davinci-code",
@@ -198,12 +248,25 @@
     "summary": "텍스트를 이진수로 바꿔 픽셀의 R·G·B 최하위 비트에 숨기고, 다시 복원하는 프로그램입니다. 원본과 결과 이미지는 눈으로 구분되지 않고 파일 크기도 같습니다.",
     "highlights": [],
     "metrics": [],
-    "stack": ["C#", "Steganography"],
-    "links": [
-      { "label": "GitHub", "url": "https://github.com/smhotkdg/TheDavinciCode" },
-      { "label": "Blog", "url": "https://blog.naver.com/smhotkdg/60174556791" }
+    "stack": [
+      "C#",
+      "Steganography"
     ],
-    "images": ["assets/img/davi/1.png", "assets/img/davi/4.png", "assets/img/davi/5.png"]
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/TheDavinciCode"
+      },
+      {
+        "label": "Blog",
+        "url": "https://blog.naver.com/smhotkdg/60174556791"
+      }
+    ],
+    "images": [
+      "assets/img/davi/1.png",
+      "assets/img/davi/4.png",
+      "assets/img/davi/5.png"
+    ]
   },
   {
     "id": "cctv-face-dna",
@@ -222,12 +285,25 @@
       "미등록 얼굴은 웹·휴대폰으로 영상·사진 전송 및 알림"
     ],
     "metrics": [],
-    "stack": ["C#", ".NET Framework 4.0", "OpenCV"],
-    "links": [
-      { "label": "Blog", "url": "https://blog.naver.com/smhotkdg/60163653224" },
-      { "label": "YouTube", "url": "https://www.youtube.com/watch?v=Y0-1hR0Sle0" }
+    "stack": [
+      "C#",
+      ".NET Framework 4.0",
+      "OpenCV"
     ],
-    "images": ["assets/img/cctv/1.png", "assets/img/cctv/2.png"]
+    "links": [
+      {
+        "label": "Blog",
+        "url": "https://blog.naver.com/smhotkdg/60163653224"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/watch?v=Y0-1hR0Sle0"
+      }
+    ],
+    "images": [
+      "assets/img/cctv/1.png",
+      "assets/img/cctv/2.png"
+    ]
   },
   {
     "id": "ads-system",
@@ -246,12 +322,30 @@
       "음성으로 호출하고 제스처로 메뉴를 고르는 HUD 인터페이스",
       "국내 전문학술대회 논문 1편"
     ],
-    "metrics": [{ "value": "약 90% 이상", "label": "표지판·차선·차간거리 인식률 (실차 테스트)" }],
-    "stack": ["C#", "Image Processing", "Gesture Recognition"],
-    "links": [
-      { "label": "GitHub", "url": "https://github.com/smhotkdg/ADAS" },
-      { "label": "Blog", "url": "https://blog.naver.com/smhotkdg/60163657211" }
+    "metrics": [
+      {
+        "value": "약 90% 이상",
+        "label": "표지판·차선·차간거리 인식률 (실차 테스트)"
+      }
     ],
-    "images": ["assets/img/ads/1.png", "assets/img/ads/2.png"]
+    "stack": [
+      "C#",
+      "Image Processing",
+      "Gesture Recognition"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/smhotkdg/ADAS"
+      },
+      {
+        "label": "Blog",
+        "url": "https://blog.naver.com/smhotkdg/60163657211"
+      }
+    ],
+    "images": [
+      "assets/img/ads/1.png",
+      "assets/img/ads/2.png"
+    ]
   }
 ]
