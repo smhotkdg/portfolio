@@ -2,6 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import crypto from "node:crypto";
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(ROOT, "_site");
@@ -104,6 +105,12 @@ const NAV = [
   ["activities", "수상·활동"],
 ];
 
+// CSS·JS 내용이 바뀌면 주소도 바뀌게 해서 브라우저 캐시 때문에 옛 파일이 쓰이지 않도록 함
+const VER = crypto.createHash("sha1")
+  .update(fs.readFileSync(path.join(ROOT, "src", "styles.css")))
+  .update(fs.readFileSync(path.join(ROOT, "src", "main.js")))
+  .digest("hex").slice(0, 8);
+
 const builtAt = new Date().toLocaleDateString("ko-KR", { timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit" }).replace(/\.\s?/g, ".").replace(/\.$/, "");
 
 function page({ title, description, depth, body, image, pathName }) {
@@ -125,7 +132,7 @@ function page({ title, description, depth, body, image, pathName }) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="${up(depth)}styles.css">
+<link rel="stylesheet" href="${up(depth)}styles.css?v=${VER}">
 </head>
 <body>
 <a class="skip" href="#main">본문으로 건너뛰기</a>
@@ -146,7 +153,7 @@ ${body}
   </div>
 </footer>
 ${noticeDialog()}
-<script src="${up(depth)}main.js" defer></script>
+<script src="${up(depth)}main.js?v=${VER}" defer></script>
 </body>
 </html>
 `;

@@ -27,6 +27,8 @@
       });
     });
     dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
+    // 주소에 #store-notice 가 남아 있으면 지움
+    if (location.hash === "#store-notice") history.replaceState(null, "", location.pathname + location.search);
   }
 
   // 상단 메뉴: 현재 보고 있는 섹션 표시

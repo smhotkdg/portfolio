@@ -251,8 +251,6 @@ p { margin: 0; }
 .notice p { font-size: var(--t-md); }
 .notice form { margin: var(--s-5) 0 0; display: flex; justify-content: flex-end; }
 .notice button { font: inherit; font-size: var(--t-sm); font-weight: 600; background: var(--primary); color: var(--bg); border: 0; border-radius: var(--r-sm); padding: var(--s-2) var(--s-5); cursor: pointer; }
-/* 스크립트가 꺼진 경우: #store-notice 로 이동하면 안내문 표시 */
-.notice:target { display: block; position: fixed; inset: 50% auto auto 50%; transform: translate(-50%, -50%); z-index: 40; }
 
 /* footer */
 .foot { border-top: 1px solid var(--line); padding-block: var(--s-6) calc(var(--s-6) + env(safe-area-inset-bottom, 0px)); font-size: var(--t-sm); color: var(--muted); }
